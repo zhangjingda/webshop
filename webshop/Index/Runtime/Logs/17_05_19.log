@@ -1,0 +1,545 @@
+[ 2017-05-19T21:56:39+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.096177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.118738s ]
+NOTIC: [8] Undefined index:  username E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `mylist` [ RunTime:1.620542s ]
+SQL: select mylist.id, phone.phoneid,phone.proname,phone.provtitle,phone.color,phone.price,phone.size,phone.neicun,phone.cunchu,phone.dianchi,phone.brand from phone ,mylist where  phone.phoneid = mylist.phoneid order by  mylist.id [ RunTime:0.348332s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.115182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broadcast` LIMIT 1   [ RunTime:0.090900s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.113110s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: account E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 83 行.
+NOTIC: [8] Undefined variable: res E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 86 行.
+NOTIC: [8] Undefined variable: listdata E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 348 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 354 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 460 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 461 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.303225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.303389s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.040983s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.038291s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.014656s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.102413s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.024876s ]
+INFO: [ view_end ] --END-- [ RunTime:0.025016s ]
+
+[ 2017-05-19T22:04:55+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017348s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002835s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040095s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001209s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006189s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001741s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001848s ]
+
+[ 2017-05-19T22:08:40+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleForm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003399s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.121608s ]
+SQL: SELECT * FROM `user` WHERE ( username='zhangsan' AND password='123456' )  [ RunTime:0.000354s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 107 行.
+
+[ 2017-05-19T22:08:41+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.074775s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.004625s ]
+SQL: select phone.phoneid, phone.proname,phone.color,phone.imgsrc1,phone.neicun,phone.cunchu,phone.price  from phone,shopcart where phone.phoneid = shopcart.phoneid  and shopcart.username = 'zhangsan' [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `mylist` [ RunTime:0.003655s ]
+SQL: select mylist.id, phone.phoneid,phone.proname,phone.provtitle,phone.color,phone.price,phone.size,phone.neicun,phone.cunchu,phone.dianchi,phone.brand from phone ,mylist where  phone.phoneid = mylist.phoneid order by  mylist.id [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.004865s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broadcast` LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.004418s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: listdata E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 348 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 354 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 460 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 461 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067068s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001689s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001344s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001289s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006153s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002821s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002980s ]
+
+[ 2017-05-19T22:16:15+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct/?phoneid=4f3asf1ggd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.014780s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.153413s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `recommend` WHERE ( username='zhangsan' and phoneid='4f3asf1ggd' ) LIMIT 1   [ RunTime:0.027353s ]
+SQL: INSERT INTO `recommend` (`username`,`phoneid`) VALUES ('zhangsan','4f3asf1ggd') [ RunTime:0.318678s ]
+SQL: select recommend.time,phone.phoneid,phone.proname,phone.imgsrc1, phone.color from phone  ,recommend  where username='zhangsan' and phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.017841s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.149096s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='4f3asf1ggd' )  [ RunTime:0.000286s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='荣耀5c' ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='荣耀5c' and star>=4 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='荣耀5c' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.047903s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='荣耀5c' and star=1  ) LIMIT 1   [ RunTime:0.000266s ]
+NOTIC: [2] Division by zero E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 198 行.
+NOTIC: [2] Division by zero E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 199 行.
+NOTIC: [2] Division by zero E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 200 行.
+SQL: SELECT * FROM `phone` WHERE ( phoneid='4f3asf1ggd' )  [ RunTime:0.000307s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `phoneid`,`color` FROM `phone` WHERE ( proname='荣耀5c'and phoneid!='4f3asf1ggd' and color!='暗夜灰' )  [ RunTime:0.000227s ]
+SQL: SELECT `phoneid`,`neicun`,`cunchu` FROM `phone` WHERE ( proname='荣耀5c' and phoneid!='4f3asf1ggd' and color='暗夜灰'  )  [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index:  imgsrc7 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc8 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc9 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc10 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc11 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc12 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc13 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc14 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc15 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc16 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc17 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc18 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc19 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc20 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc21 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc22 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+NOTIC: [8] Undefined index:  imgsrc23 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 224 行.
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.129659s ]
+SQL: SELECT * FROM `allnum` WHERE ( phoneid='4f3asf1ggd' )  [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: imgsrc6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 169 行.
+NOTIC: [8] Undefined index:  bigimg5 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 432 行.
+NOTIC: [8] Undefined index:  bigimg6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 434 行.
+NOTIC: [8] Undefined index:  bigimg7 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 436 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.092974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093087s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001695s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001650s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001371s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006408s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005875s ]
+
+[ 2017-05-19T22:16:16+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=4f3asf1ggd&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003012s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004031s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.003762s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='4f3asf1ggd' )  [ RunTime:0.000265s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='荣耀5c' and star>=4  ) LIMIT 1   [ RunTime:0.000373s ]
+
+[ 2017-05-19T22:16:17+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003073s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.007532s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.006350s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='4f3asf1ggd' )  [ RunTime:0.000450s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='荣耀5c' and star>=4  ) ORDER BY id desc LIMIT -5,5   [ RunTime:0.109478s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `comment` WHERE ( proname='荣耀5c' and star>=4  ) ORDER BY id desc LIMIT -5,5  
+
+[ 2017-05-19T22:16:19+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/shopcart/?key=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002279s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002460s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003025s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.046942s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.006103s ]
+NOTIC: 建议使用I方法替代_get
+SQL: select phone.phoneid,phone.proname,phone.protitle, phone.provtitle,phone.neicun,phone.cunchu,phone.color,phone.price,phone.imgsrc1 from phone,shopcart  where phone.phoneid = shopcart.phoneid  and username='zhangsan' [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `buy` [ RunTime:0.101567s ]
+NOTIC: 建议使用I方法替代_get
+SQL: select buy.id,buy.time,phone.proname,phone.color,phone.neicun,phone.cunchu, phone.imgsrc1 ,phone.phoneid from phone,buy where buy.username='zhangsan'  and phone.phoneid = buy.phoneid order by time desc limit 0,5 [ RunTime:0.000731s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `buy` LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `store` [ RunTime:0.100918s ]
+SQL: select phone.proname,phone.color,phone.neicun,phone.cunchu,store.time, phone.imgsrc1 ,phone.phoneid from phone,store 
+                     where store.username='zhangsan'  and phone.phoneid = store.phoneid [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: storeydata E:\www\webshop\Index\Runtime\Cache\4581b68b08978416f786b859847bd289.php 第 513 行.
+NOTIC: [8] Undefined variable: storeydata E:\www\webshop\Index\Runtime\Cache\4581b68b08978416f786b859847bd289.php 第 513 行.
+NOTIC: [8] Undefined variable: storeydata E:\www\webshop\Index\Runtime\Cache\4581b68b08978416f786b859847bd289.php 第 513 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.099948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100121s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002428s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002086s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001910s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009089s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002777s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008607s ]
+
+[ 2017-05-19T22:16:20+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/getComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.066397s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='36' ) ORDER BY time  [ RunTime:0.001342s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='35' ) ORDER BY time  [ RunTime:0.000400s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='34' ) ORDER BY time  [ RunTime:0.000402s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='33' ) ORDER BY time  [ RunTime:0.000383s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='32' ) ORDER BY time  [ RunTime:0.000328s ]
+
+[ 2017-05-19T22:16:30+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=4f3asf1ggd&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004921s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.004701s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='4f3asf1ggd' )  [ RunTime:0.009787s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='荣耀5c' and star>=4  ) LIMIT 1   [ RunTime:0.000330s ]
+
+[ 2017-05-19T22:16:30+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.006145s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.004435s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='4f3asf1ggd' )  [ RunTime:0.000273s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='荣耀5c' and star>=4  ) ORDER BY id desc LIMIT -5,5   [ RunTime:0.000130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `comment` WHERE ( proname='荣耀5c' and star>=4  ) ORDER BY id desc LIMIT -5,5  
+
+[ 2017-05-19T22:16:32+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/saveUserShopCart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000906s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.003436s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( username='zhangsan' and phoneid = '4f3asf1ggd' ) LIMIT 1   [ RunTime:0.000720s ]
+SQL: INSERT INTO `shopcart` (`username`,`phoneid`) VALUES ('zhangsan','4f3asf1ggd') [ RunTime:0.080848s ]
+
+[ 2017-05-19T22:16:34+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/shopcart/?key=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000960s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.028267s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004249s ]
+NOTIC: 建议使用I方法替代_get
+SQL: select phone.phoneid,phone.proname,phone.protitle, phone.provtitle,phone.neicun,phone.cunchu,phone.color,phone.price,phone.imgsrc1 from phone,shopcart  where phone.phoneid = shopcart.phoneid  and username='zhangsan' [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `buy` [ RunTime:0.004761s ]
+NOTIC: 建议使用I方法替代_get
+SQL: select buy.id,buy.time,phone.proname,phone.color,phone.neicun,phone.cunchu, phone.imgsrc1 ,phone.phoneid from phone,buy where buy.username='zhangsan'  and phone.phoneid = buy.phoneid order by time desc limit 0,5 [ RunTime:0.000648s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `buy` LIMIT 1   [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `store` [ RunTime:0.004914s ]
+SQL: select phone.proname,phone.color,phone.neicun,phone.cunchu,store.time, phone.imgsrc1 ,phone.phoneid from phone,store 
+                     where store.username='zhangsan'  and phone.phoneid = store.phoneid [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: storeydata E:\www\webshop\Index\Runtime\Cache\4581b68b08978416f786b859847bd289.php 第 513 行.
+NOTIC: [8] Undefined variable: storeydata E:\www\webshop\Index\Runtime\Cache\4581b68b08978416f786b859847bd289.php 第 513 行.
+NOTIC: [8] Undefined variable: storeydata E:\www\webshop\Index\Runtime\Cache\4581b68b08978416f786b859847bd289.php 第 513 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039187s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002569s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002081s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001846s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009303s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005300s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005474s ]
+
+[ 2017-05-19T22:16:35+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/getComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002120s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.005869s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='36' ) ORDER BY time  [ RunTime:0.000404s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='35' ) ORDER BY time  [ RunTime:0.000278s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='34' ) ORDER BY time  [ RunTime:0.000268s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='33' ) ORDER BY time  [ RunTime:0.000264s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='32' ) ORDER BY time  [ RunTime:0.000253s ]
+
+[ 2017-05-19T22:16:55+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/delShopCart?phoneid=4f3asf1ggd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.005662s ]
+SQL: DELETE FROM `shopcart` WHERE ( phoneid = '4f3asf1ggd'and username='zhangsan' ) [ RunTime:0.535330s ]
+
+[ 2017-05-19T22:18:01+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=4f3asf1ggd&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004217s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.004335s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='4f3asf1ggd' )  [ RunTime:0.000280s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='荣耀5c' and star>=4  ) LIMIT 1   [ RunTime:0.000203s ]
+
+[ 2017-05-19T22:18:01+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.004403s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.004086s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='4f3asf1ggd' )  [ RunTime:0.000516s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='荣耀5c' and star>=4  ) ORDER BY id desc LIMIT -5,5   [ RunTime:0.000141s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `comment` WHERE ( proname='荣耀5c' and star>=4  ) ORDER BY id desc LIMIT -5,5  
+
+[ 2017-05-19T22:18:02+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/saveUserShopCart
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000903s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.003828s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shopcart` WHERE ( username='zhangsan' and phoneid = '4f3asf1ggd' ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: INSERT INTO `shopcart` (`username`,`phoneid`) VALUES ('zhangsan','4f3asf1ggd') [ RunTime:0.047621s ]
+
+[ 2017-05-19T22:18:05+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/shopcart/?key=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.005420s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.006128s ]
+NOTIC: 建议使用I方法替代_get
+SQL: select phone.phoneid,phone.proname,phone.protitle, phone.provtitle,phone.neicun,phone.cunchu,phone.color,phone.price,phone.imgsrc1 from phone,shopcart  where phone.phoneid = shopcart.phoneid  and username='zhangsan' [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `buy` [ RunTime:0.005728s ]
+NOTIC: 建议使用I方法替代_get
+SQL: select buy.id,buy.time,phone.proname,phone.color,phone.neicun,phone.cunchu, phone.imgsrc1 ,phone.phoneid from phone,buy where buy.username='zhangsan'  and phone.phoneid = buy.phoneid order by time desc limit 0,5 [ RunTime:0.002696s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `buy` LIMIT 1   [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `store` [ RunTime:0.006189s ]
+SQL: select phone.proname,phone.color,phone.neicun,phone.cunchu,store.time, phone.imgsrc1 ,phone.phoneid from phone,store 
+                     where store.username='zhangsan'  and phone.phoneid = store.phoneid [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: storeydata E:\www\webshop\Index\Runtime\Cache\4581b68b08978416f786b859847bd289.php 第 513 行.
+NOTIC: [8] Undefined variable: storeydata E:\www\webshop\Index\Runtime\Cache\4581b68b08978416f786b859847bd289.php 第 513 行.
+NOTIC: [8] Undefined variable: storeydata E:\www\webshop\Index\Runtime\Cache\4581b68b08978416f786b859847bd289.php 第 513 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036934s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001085s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000747s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000506s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003545s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000991s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2017-05-19T22:18:05+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/getComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001713s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.005165s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='36' ) ORDER BY time  [ RunTime:0.000407s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='35' ) ORDER BY time  [ RunTime:0.000320s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='34' ) ORDER BY time  [ RunTime:0.000304s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='33' ) ORDER BY time  [ RunTime:0.000292s ]
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='zhangsan' and buyid ='32' ) ORDER BY time  [ RunTime:0.000259s ]
+
+[ 2017-05-19T22:19:59+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/money/phoneid/4f3asf1ggd/num/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002039s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `addr` [ RunTime:0.038571s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `addr` WHERE ( username='zhangsan' ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT `addr` FROM `addr` WHERE ( username='zhangsan' )  [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: allmoney E:\www\webshop\Index\Lib\Action\ShopCartAction.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036164s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001353s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001312s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005439s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001734s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001813s ]
+
+[ 2017-05-19T22:20:03+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/money2/phoneid/4f3asf1ggd/num/1/address/%E5%B9%BF%E4%B8%9C%E7%9C%81%E5%B9%BF%E5%B7%9E%E5%B8%82%E7%95%AA%E7%A6%BA%E5%8C%BA%E5%A4%A7%E5%AD%A6%E5%9F%8E%E5%B9%BF%E4%B8%9C%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002893s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.004237s ]
+SQL: SELECT * FROM `phone` WHERE ( phoneid='4f3asf1ggd' )  [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043223s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002152s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001390s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001650s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006925s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001622s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2017-05-19T22:26:10+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/buySuccess
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001806s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `buy` [ RunTime:0.003554s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.003310s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.004216s ]
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.003359s ]
+SQL: INSERT INTO `buy` (`username`,`phoneid`) VALUES ('zhangsan','4f3asf1ggd') [ RunTime:0.097806s ]
+SQL: DELETE FROM `shopcart` WHERE ( username='zhangsan' and phoneid='4f3asf1ggd' ) [ RunTime:0.065708s ]
+SQL: INSERT INTO `orders` (`username`,`phoneid`,`num`,`addr`,`content`) VALUES ('zhangsan','4f3asf1ggd',1,'广东省广州市番禺区大学城广东工业大学','') [ RunTime:0.156158s ]
+SQL: update allnum set num=num-1 where  phoneid='4f3asf1ggd' [ RunTime:0.304893s ]
+NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource E:\www\webshop\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 109 行.
+
+[ 2017-05-19T22:26:12+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.004679s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.004153s ]
+SQL: select phone.phoneid, phone.proname,phone.color,phone.imgsrc1,phone.neicun,phone.cunchu,phone.price  from phone,shopcart where phone.phoneid = shopcart.phoneid  and shopcart.username = 'zhangsan' [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `mylist` [ RunTime:0.004567s ]
+SQL: select mylist.id, phone.phoneid,phone.proname,phone.provtitle,phone.color,phone.price,phone.size,phone.neicun,phone.cunchu,phone.dianchi,phone.brand from phone ,mylist where  phone.phoneid = mylist.phoneid order by  mylist.id [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.004215s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broadcast` LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.004565s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: listdata E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 348 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 354 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 460 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 461 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.084264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084404s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002439s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002385s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001560s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008824s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002813s ]
+

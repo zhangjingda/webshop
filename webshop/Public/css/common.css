@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html , body{
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // text-align: center;
+  color: #2c3e50;
+  font-size: 14px;
+}
+a{
+	text-decoration: none;
+	color: #2c3e50;
+
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #F00;
+}
+ul{
+	list-style: none;
+}
+
+.font14{
+    font-size: 1rem;
+}
+.font12{
+	font-size: 0.75rem;
+}
+.font10{
+	font-size: 0.625rem;
+}
+
+.marginTop20{
+	margin-top:20px;
+}
+.marginBottom20{
+	margin-bottom: 20px;
+}
+.marginLeft20{
+	margin-left: 20px;
+}
+.marginRight20{
+	margin-right: 20px;
+}
+.paddingTop20{
+	margin-top:20px;
+}
+.paddingBottom20{
+	margin-bottom: 20px;
+}
+.paddingLeft20{
+	margin-left: 20px;
+}
+.paddingRight20{
+	margin-right: 20px;
+}
+.paddingTop5{
+	margin-top:5px;
+}
+.paddingBottom5{
+	margin-bottom: 5px;
+}
+.paddingLeft5{
+	margin-left: 5px;
+}
+.paddingRight5{
+	margin-right: 5px;
+}
+.paddingTop10{
+	margin-top:10px;
+}
+.paddingBottom10{
+	margin-bottom: 10px;
+}
+.paddingLeft10{
+	margin-left: 10px;
+}
+.paddingRight10{
+	margin-right: 10px;
+}
+

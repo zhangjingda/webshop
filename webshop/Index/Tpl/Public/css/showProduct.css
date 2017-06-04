@@ -1,0 +1,332 @@
+.showProduct {
+  color: #000;
+  width: 100%;
+  margin: 20px auto;
+}
+.showProduct .leftBar {
+  float: left;
+  width: 40%;
+  height: 550px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: relative;
+}
+.showProduct .leftBar .arr {
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  border: 1px solid #ccc;
+  bottom: 18px;
+  left: 3px;
+  text-align: center;
+  line-height: 90px;
+}
+.showProduct .leftBar .arr:hover {
+  cursor: pointer;
+}
+.showProduct .leftBar .arr1 {
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  border: 1px solid #ccc;
+  bottom: 18px;
+  right: 3px;
+  text-align: center;
+  line-height: 90px;
+}
+.showProduct .leftBar .arr1:hover {
+  cursor: pointer;
+}
+.showProduct .leftBar .big_img_box {
+  width: 417px;
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.showProduct .leftBar .big_img_box img {
+  width: 100%;
+  height: 100%;
+}
+.showProduct .leftBar .imgBox {
+  margin-top: 20px;
+  width: 417px;
+  height: 100px;
+  overflow: hidden;
+  margin-left: 10px;
+  position: relative;
+}
+.showProduct .leftBar .imgBox .small_img_box {
+  float: left;
+  width: 80px;
+  height: 100px;
+  border: 1px solid transparent;
+  margin: 0 10px;
+}
+.showProduct .leftBar .imgBox .small_img_box img {
+  width: 100%;
+  height: 100%;
+}
+.showProduct .leftBar .imgBox .small_img_box:hover {
+  border: 1px solid #f00;
+  cursor: pointer;
+}
+.showProduct .rightBar {
+  margin-left: 30px;
+  float: left;
+  width: 57%;
+  height: 550px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.showProduct .rightBar h3 {
+  margin-top: -10px;
+  width: 100%;
+  height: 30px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.showProduct .rightBar h5 {
+  width: 100%;
+  height: 36px;
+  padding-left: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.showProduct .rightBar .price {
+  height: 84px;
+  background-color: #eee;
+  position: relative;
+  padding: 10px;
+}
+.showProduct .rightBar .price .pri {
+  position: absolute;
+  top: 32px;
+  left: 15px;
+}
+.showProduct .rightBar .price h3 {
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 200px;
+  color: #F00;
+  border: none;
+}
+.showProduct .rightBar .smallMes span {
+  display: inline-block;
+  margin: 7px 20px 5px 0;
+}
+.showProduct .rightBar .smallMes .minwidth {
+  min-width: 70px;
+}
+.showProduct .rightBar .smallMes input {
+  width: 50px;
+  text-align: center;
+}
+.showProduct .rightBar .smallMes input[type=button] {
+  width: auto;
+  background-color: #aaa;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 2px 5px;
+  margin-right: 20px;
+}
+.showProduct .rightBar .smallMes button {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0 4px;
+}
+.showProduct .rightBar .smallMes .col {
+  width: 20px;
+}
+.Message {
+  color: #000;
+  width: 100%;
+  margin: 40px auto;
+}
+.Message .leftSuggest {
+  width: 20%;
+  float: left;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.Message .leftSuggest .item {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+.Message .rightMes {
+  width: 80%;
+  float: left;
+}
+.Message .rightMes .pro_detail,
+.Message .rightMes .comment,
+.Message .rightMes .service {
+  float: left;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-top: 3px solid #ccc;
+}
+.Message .rightMes .pro_detail:hover,
+.Message .rightMes .comment:hover,
+.Message .rightMes .service:hover {
+  cursor: pointer;
+}
+.Message .rightMes .mesbox {
+  margin-top: 20px;
+  clear: both;
+  width: 100%;
+}
+.Message .rightMes .mesbox .service {
+  padding: 30px;
+  font-size: 16px;
+  line-height: 2em;
+  border: none;
+}
+.Message .rightMes .mesbox .mes {
+  display: none;
+}
+.Message .rightMes .mesbox .mes .mes_comment_top {
+  width: 100%;
+  height: 160px;
+  padding: 20px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_top .good_img {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  float: left;
+}
+.Message .rightMes .mesbox .mes .mes_comment_top .good_something {
+  margin-left: 40px;
+  float: left;
+  width: 420px;
+  height: 120px;
+  padding: 15px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_top .good_something .percent {
+  display: inline-block;
+  margin-left: 20px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont {
+  padding: 20px;
+  width: 100%;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 {
+  margin-top: 40px;
+  width: 100%;
+  min-height: 400px;
+  height: 1070px;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com {
+  width: 100%;
+  height: 180px;
+  margin-top: 30px;
+  border-bottom: 1px solid #ccc;
+  padding: 0;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .lef_user_img_pro {
+  float: left;
+  width: 160px;
+  height: 150px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .lef_user_img_pro .img {
+  width: 110px;
+  height: 110px;
+  margin-left: 30px;
+  overflow: hidden;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .lef_user_img_pro .font {
+  width: 160px;
+  padding-top: 4px;
+  height: 16px;
+  text-align: center;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .rig_user_com {
+  float: left;
+  width: 600px;
+  height: 160px;
+  margin-left: 30px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .rig_user_com .username {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .rig_user_com .usercomment {
+  width: 550px;
+  height: 70px;
+  overflow: hidden;
+}
+.discuss {
+  float: right;
+  width: 550px;
+  height: 35px;
+}
+.discuss button {
+  border: none;
+  outline: none;
+}
+.discuss button:hover {
+  color: #F00;
+  border-color: #F00;
+}
+.discuss .page,
+.discuss .page1,
+.discuss .page2 {
+  display: block;
+  float: left;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  background-color: #fff;
+}
+.discuss .first {
+  color: #F00;
+  border-color: #F00;
+}
+.discuss .pagemore {
+  display: none;
+}
+.discuss span {
+  display: inline-block;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.discuss .nowpage {
+  padding-left: 0;
+}
+.mes_a {
+  padding: 50px;
+}
+.mes_a span {
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 16px;
+  min-width: 50px;
+}
+footer {
+  clear: both;
+  padding-top: 20px;
+  margin-top: 80px;
+  width: 100%;
+  height: 80px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-size: 10px;
+}
+footer a {
+  padding: 10px;
+  color: #F00;
+}
+footer a:hover {
+  text-decoration: none;
+}

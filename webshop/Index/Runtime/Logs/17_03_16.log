@@ -1,0 +1,77 @@
+[ 2017-03-16T10:15:34+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.045008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045284s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.210576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210945s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.026892s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.022721s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.021399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.019542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.091226s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.016107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.016363s ]
+
+[ 2017-03-16T10:15:51+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.030076s ]
+INFO: [ route_check ] --END-- [ RunTime:0.030260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004302s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047829s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003681s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003998s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004551s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016359s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004673s ]
+
+[ 2017-03-16T10:15:54+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003611s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071901s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004334s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004528s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004126s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017286s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004987s ]
+
+[ 2017-03-16T10:15:57+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001638s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.203308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.203509s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001805s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001564s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006863s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002936s ]
+

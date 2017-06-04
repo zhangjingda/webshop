@@ -1,0 +1,240 @@
+[ 2017-05-15T16:20:16+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008658s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003137s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050539s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004326s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004272s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003409s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016744s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003543s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003644s ]
+
+[ 2017-05-15T16:22:12+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/handleAdminLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003751s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003073s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.828945s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( account='zhangsan' AND password='1234567' ) LIMIT 1   [ RunTime:0.066769s ]
+
+[ 2017-05-15T16:22:13+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/adminHome.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001263s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.232441s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.023212s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`username`,`phone`,`frozen`,`time` FROM `user` LIMIT 0,5   [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.190055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190280s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007382s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006059s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003496s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022514s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003936s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004069s ]
+
+[ 2017-05-15T16:22:38+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/handlePwdChange
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003397s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003278s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.018977s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( account='zhangsan' and password='1234567' ) LIMIT 1   [ RunTime:0.002285s ]
+
+[ 2017-05-15T16:22:38+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/changPwd/username/zhangsan.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: 建议使用I方法替代_param
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035074s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002922s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004290s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002715s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013213s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003112s ]
+
+[ 2017-05-15T16:26:52+08:00 ] 127.0.0.1 /webshop/admin.php/Product/product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003295s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003215s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.122566s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT COUNT(*) AS tp_count FROM `phone` LIMIT 1   [ RunTime:0.000651s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT * FROM `phone` LIMIT 0,3   [ RunTime:0.000721s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061901s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003105s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003003s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002754s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012267s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004628s ]
+
+[ 2017-05-15T16:29:04+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/adminHome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003585s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003778s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018901s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000557s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`username`,`phone`,`frozen`,`time` FROM `user` LIMIT 0,5   [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030168s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003129s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002909s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002756s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012563s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003458s ]
+
+[ 2017-05-15T16:34:30+08:00 ] 127.0.0.1 /webshop/admin.php/Product/product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003364s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002983s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.009419s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT COUNT(*) AS tp_count FROM `phone` LIMIT 1   [ RunTime:0.000317s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT * FROM `phone` LIMIT 0,3   [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043619s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002835s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002773s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012667s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004516s ]
+
+[ 2017-05-15T16:48:21+08:00 ] 127.0.0.1 /webshop/admin.php/Broadcast/broadcast
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003438s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002984s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.139656s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000957s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059749s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002867s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002926s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002590s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011411s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004212s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004329s ]
+
+[ 2017-05-15T16:58:19+08:00 ] 127.0.0.1 /webshop/admin.php/Order/order
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003371s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003620s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.139751s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.020513s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `orders` WHERE ( tip=0 ) LIMIT 1   [ RunTime:0.051876s ]
+NOTIC: 建议使用I方法替代_get
+SQL: select orders.id,orders.phoneid,orders.addr,orders.content,orders.num , orders.username,orders.time,phone.color, phone.proname,phone.neicun,phone.cunchu from orders,phone  where orders.phoneid = phone.phoneid and tip=0 limit 0,3 [ RunTime:0.002115s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061042s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004890s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002949s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002747s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014379s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010887s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-05-15T17:04:01+08:00 ] 127.0.0.1 /webshop/admin.php/Order/count
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003729s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003857s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.009440s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.009536s ]
+SQL: select phone.proname,phone.price,orders.num from  phone,orders where phone.phoneid = orders.phoneid and phone.brand  like '%%' and time between '2016-01-01 00:00:00' and '2017-05-16 05:04:00' and tip=1 [ RunTime:0.097469s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: brand E:\www\webshop\Admin\Runtime\Cache\2b8280c070ec8137ebd12c07ad43f72d.php 第 88 行.
+NOTIC: [8] Undefined variable: brand E:\www\webshop\Admin\Runtime\Cache\2b8280c070ec8137ebd12c07ad43f72d.php 第 88 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059416s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003965s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003522s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003339s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014781s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004282s ]
+

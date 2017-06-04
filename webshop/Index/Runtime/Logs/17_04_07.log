@@ -1,0 +1,2943 @@
+[ 2017-04-07T00:01:59+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004455s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003057s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026558s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002856s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002566s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011876s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003063s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003174s ]
+
+[ 2017-04-07T00:02:05+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003298s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003533s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016259s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='18819441529' ) LIMIT 1   [ RunTime:0.000476s ]
+
+[ 2017-04-07T00:02:07+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015903s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='18819441529' ) LIMIT 1   [ RunTime:0.000502s ]
+
+[ 2017-04-07T00:02:07+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.020432s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:02:09+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018425s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='18819441529' ) LIMIT 1   [ RunTime:0.000340s ]
+
+[ 2017-04-07T00:02:35+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001450s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028628s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002819s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002816s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002613s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011333s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003189s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003308s ]
+
+[ 2017-04-07T00:02:37+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002192s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002467s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.023156s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:03:39+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003840s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035523s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003506s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003157s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005043s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016247s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004677s ]
+
+[ 2017-04-07T00:03:44+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015839s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000416s ]
+
+[ 2017-04-07T00:03:48+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002583s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018397s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000436s ]
+
+[ 2017-04-07T00:03:50+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001392s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017856s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:03:51+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002584s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015262s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:03:52+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001578s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.019241s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:03:53+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016606s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:03:54+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001556s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001700s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.020954s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000346s ]
+
+[ 2017-04-07T00:04:01+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001357s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.029784s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000692s ]
+
+[ 2017-04-07T00:05:06+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003097s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037850s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004263s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003087s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003771s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014897s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004057s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004208s ]
+
+[ 2017-04-07T00:05:07+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040363s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001188s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000749s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005815s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002010s ]
+
+[ 2017-04-07T00:05:22+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001354s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018197s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000763s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002956s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005516s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003340s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003554s ]
+
+[ 2017-04-07T00:05:24+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001282s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052794s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001187s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001051s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001035s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006321s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.019043s ]
+INFO: [ view_end ] --END-- [ RunTime:0.019213s ]
+
+[ 2017-04-07T00:05:30+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017374s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000337s ]
+
+[ 2017-04-07T00:05:38+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001315s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.029054s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000361s ]
+
+[ 2017-04-07T00:05:59+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030677s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001261s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005320s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002362s ]
+
+[ 2017-04-07T00:06:00+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001226s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018987s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:06:02+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004913s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002471s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019614s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001155s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001163s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001027s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005488s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001702s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002035s ]
+
+[ 2017-04-07T00:06:25+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003289s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003418s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005274s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032718s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004607s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004824s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004194s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017217s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005221s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005396s ]
+
+[ 2017-04-07T00:06:27+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001815s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001984s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003131s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018231s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:06:32+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001265s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015760s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000360s ]
+
+[ 2017-04-07T00:06:56+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001232s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024113s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001207s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000820s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004468s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2017-04-07T00:07:01+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001291s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003249s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.027533s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000543s ]
+
+[ 2017-04-07T00:07:05+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018684s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001247s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001627s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000851s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005232s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001431s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2017-04-07T00:07:08+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004165s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003727s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016721s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:07:13+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002414s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016258s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000418s ]
+
+[ 2017-04-07T00:07:18+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026438s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002914s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002870s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002613s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011610s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003278s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003405s ]
+
+[ 2017-04-07T00:07:26+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015404s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000415s ]
+
+[ 2017-04-07T00:07:27+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001593s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018381s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000852s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000739s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003307s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002257s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002581s ]
+
+[ 2017-04-07T00:07:39+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001705s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001372s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001164s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005738s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001696s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2017-04-07T00:07:41+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016657s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:07:45+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017040s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.001034s ]
+
+[ 2017-04-07T00:07:56+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001239s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017689s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003022s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000888s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005689s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001323s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2017-04-07T00:08:00+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.020975s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.001374s ]
+
+[ 2017-04-07T00:08:07+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001314s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017624s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000792s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000723s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000575s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003225s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002662s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002774s ]
+
+[ 2017-04-07T00:08:09+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027926s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000938s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000771s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003451s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000986s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2017-04-07T00:08:11+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004293s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004472s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030813s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001831s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001209s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000920s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005645s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003438s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003596s ]
+
+[ 2017-04-07T00:08:12+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002468s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.021541s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:08:13+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002052s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018056s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:08:19+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016674s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='zhangsan' ) LIMIT 1   [ RunTime:0.000676s ]
+
+[ 2017-04-07T00:08:22+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001663s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016009s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='zhangsan' ) LIMIT 1   [ RunTime:0.000488s ]
+
+[ 2017-04-07T00:09:40+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004060s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006070s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004395s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003036s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002791s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013321s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004443s ]
+
+[ 2017-04-07T00:09:42+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002895s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.023912s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:09:46+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016208s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000524s ]
+
+[ 2017-04-07T00:09:51+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015665s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:09:52+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001252s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018065s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:09:53+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001232s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015076s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:10:19+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019880s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000782s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000736s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003125s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000984s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2017-04-07T00:10:23+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001451s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018274s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000361s ]
+
+[ 2017-04-07T00:10:58+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001294s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019228s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001009s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000790s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000627s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004089s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001586s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2017-04-07T00:11:03+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016157s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000366s ]
+
+[ 2017-04-07T00:11:15+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003394s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003136s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028760s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003045s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003381s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004327s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014338s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003887s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004012s ]
+
+[ 2017-04-07T00:11:20+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001714s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002003s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016902s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000707s ]
+
+[ 2017-04-07T00:11:48+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.025629s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000471s ]
+
+[ 2017-04-07T00:11:58+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003669s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002985s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.019847s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000528s ]
+
+[ 2017-04-07T00:12:04+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001605s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001743s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.029872s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:12:06+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004096s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014637s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:12:08+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017760s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:12:10+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014840s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='18819441529' ) LIMIT 1   [ RunTime:0.000405s ]
+
+[ 2017-04-07T00:12:14+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.020013s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:12:15+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001176s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017816s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:12:16+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015908s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:12:17+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018394s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:12:18+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015363s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:12:22+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015677s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:12:24+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016018s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:12:26+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018203s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:13:54+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001205s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031619s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003846s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005083s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003602s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016523s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005008s ]
+
+[ 2017-04-07T00:14:02+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003402s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003541s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003908s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017315s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='17718552343' ) LIMIT 1   [ RunTime:0.000436s ]
+
+[ 2017-04-07T00:14:06+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016589s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='qwerty' ) LIMIT 1   [ RunTime:0.000376s ]
+
+[ 2017-04-07T00:15:04+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030326s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004131s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003089s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003973s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016272s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007434s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007611s ]
+
+[ 2017-04-07T00:15:11+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004046s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016400s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='17263741234' ) LIMIT 1   [ RunTime:0.000446s ]
+
+[ 2017-04-07T00:15:14+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003218s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017819s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:15:38+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.026962s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='123456' ) LIMIT 1   [ RunTime:0.000510s ]
+
+[ 2017-04-07T00:16:00+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003229s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003343s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002924s ]
+
+[ 2017-04-07T00:16:34+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030171s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003382s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002703s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012540s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003181s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003339s ]
+
+[ 2017-04-07T00:16:43+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001766s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034786s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004353s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004903s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006562s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010184s ]
+
+[ 2017-04-07T00:16:46+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001906s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002057s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.023316s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:17:15+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003924s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004108s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003279s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001283s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005237s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2017-04-07T00:17:18+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002541s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027447s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001306s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001101s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005004s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2017-04-07T00:17:20+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002097s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015838s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:17:26+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017472s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='17263743212' ) LIMIT 1   [ RunTime:0.000404s ]
+
+[ 2017-04-07T00:17:29+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016196s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='123456' ) LIMIT 1   [ RunTime:0.000463s ]
+
+[ 2017-04-07T00:17:35+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.027923s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='zhangsan' ) LIMIT 1   [ RunTime:0.000433s ]
+
+[ 2017-04-07T00:17:39+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001270s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015899s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='123456' ) LIMIT 1   [ RunTime:0.000380s ]
+
+[ 2017-04-07T00:19:29+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003364s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004574s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040199s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004739s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004561s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007466s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020050s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004872s ]
+
+[ 2017-04-07T00:19:39+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003333s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003486s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015991s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='16534253421' ) LIMIT 1   [ RunTime:0.000370s ]
+
+[ 2017-04-07T00:19:43+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001288s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015016s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='123456' ) LIMIT 1   [ RunTime:0.000586s ]
+
+[ 2017-04-07T00:20:09+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001192s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.021525s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='123456' ) LIMIT 1   [ RunTime:0.000422s ]
+
+[ 2017-04-07T00:20:10+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001568s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.020615s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='16534253421' ) LIMIT 1   [ RunTime:0.000377s ]
+
+[ 2017-04-07T00:20:11+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018240s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='16534253421' ) LIMIT 1   [ RunTime:0.000609s ]
+
+[ 2017-04-07T00:20:12+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001336s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016928s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='123456' ) LIMIT 1   [ RunTime:0.000503s ]
+
+[ 2017-04-07T00:20:13+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001386s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018872s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='123456' ) LIMIT 1   [ RunTime:0.000374s ]
+
+[ 2017-04-07T00:20:14+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001232s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018377s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='123456' ) LIMIT 1   [ RunTime:0.000368s ]
+
+[ 2017-04-07T00:20:15+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001896s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017921s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='16534253421' ) LIMIT 1   [ RunTime:0.000367s ]
+
+[ 2017-04-07T00:20:16+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001260s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016562s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='16534253421' ) LIMIT 1   [ RunTime:0.000370s ]
+
+[ 2017-04-07T00:20:17+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016902s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='16534253421' ) LIMIT 1   [ RunTime:0.000416s ]
+
+[ 2017-04-07T00:20:17+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016216s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='16534253421' ) LIMIT 1   [ RunTime:0.000450s ]
+
+[ 2017-04-07T00:20:23+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001219s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016280s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='16534253421' ) LIMIT 1   [ RunTime:0.000428s ]
+
+[ 2017-04-07T00:20:27+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026334s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003922s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003158s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002621s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013767s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003982s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004151s ]
+
+[ 2017-04-07T00:20:33+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleForm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003306s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003658s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-04-07T00:20:37+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleForm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001313s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-04-07T00:20:39+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleForm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001516s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-04-07T00:20:41+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleForm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001750s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-04-07T00:20:44+08:00 ] 127.0.0.1 /webshop/index.php/Form/handlePwd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002440s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002718s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042699s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003985s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003646s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002832s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002920s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003012s ]
+
+[ 2017-04-07T00:21:10+08:00 ] 127.0.0.1 /webshop/index.php/Form/handlePwd1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030193s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000744s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000725s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000622s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005388s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001403s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2017-04-07T00:21:41+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003249s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003380s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027675s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000906s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000782s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000583s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003341s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2017-04-07T00:21:43+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017408s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000794s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000763s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003223s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001244s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2017-04-07T00:21:46+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.021974s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:21:47+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016197s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:21:49+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017651s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:21:52+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.032754s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:21:53+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001724s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016917s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:21:54+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016185s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:21:54+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031083s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001297s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001073s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000634s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004184s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001089s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2017-04-07T00:21:55+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018247s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000753s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000712s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003110s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2017-04-07T00:23:39+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001204s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039898s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002991s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002894s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002784s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014384s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003141s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003255s ]
+
+[ 2017-04-07T00:23:41+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016977s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000802s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000728s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003445s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001072s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2017-04-07T00:23:44+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003596s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003820s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016777s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:23:44+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015897s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:23:47+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016334s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T00:23:49+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001247s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015779s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 56 行.
+
+[ 2017-04-07T10:03:09+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003058s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038864s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004216s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003756s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015521s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004124s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006102s ]
+
+[ 2017-04-07T10:03:12+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020659s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000769s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000711s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003043s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2017-04-07T10:03:18+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003375s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003521s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003267s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.063576s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( phone='17723432125' ) LIMIT 1   [ RunTime:0.000485s ]
+
+[ 2017-04-07T10:03:24+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.029036s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='zhangsan' ) LIMIT 1   [ RunTime:0.000475s ]
+
+[ 2017-04-07T10:03:27+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017181s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE ( username='zhangsan2' ) LIMIT 1   [ RunTime:0.000548s ]
+
+[ 2017-04-07T10:03:43+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.024608s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE (  username='zhangsan2' || phone='17723432125'  ) LIMIT 1   [ RunTime:0.056006s ]
+SQL: INSERT INTO `user` (`username`,`password`,`phone`) VALUES ('zhangsan2','123456','17723432125') [ RunTime:0.114713s ]
+
+[ 2017-04-07T10:04:58+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003281s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003085s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015277s ]
+
+[ 2017-04-07T10:05:15+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003258s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003401s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003033s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.028241s ]
+
+[ 2017-04-07T10:06:15+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003140s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003252s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002971s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014887s ]
+
+[ 2017-04-07T10:06:31+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001251s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014744s ]
+
+[ 2017-04-07T10:06:53+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001290s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015609s ]
+
+[ 2017-04-07T10:08:03+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003405s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003168s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.025093s ]
+
+[ 2017-04-07T10:08:16+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003264s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002940s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015540s ]
+
+[ 2017-04-07T10:08:30+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015589s ]
+
+[ 2017-04-07T10:08:40+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015520s ]
+
+[ 2017-04-07T10:08:43+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016967s ]
+
+[ 2017-04-07T10:08:54+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001217s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014935s ]
+
+[ 2017-04-07T10:08:58+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001386s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.076846s ]
+
+[ 2017-04-07T10:09:15+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001450s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015857s ]
+
+[ 2017-04-07T10:09:54+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014968s ]
+SQL: INSERT INTO `user` (`phone`,`username`,`password`) VALUES ('12435446754','zhangsan2','123456') [ RunTime:0.057867s ]
+
+[ 2017-04-07T10:11:50+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004446s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003042s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.029350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE (  username='zhangsan2' || phone='17723432125'  ) LIMIT 1   [ RunTime:0.000381s ]
+
+[ 2017-04-07T10:13:43+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003547s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004277s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029300s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003277s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002804s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002722s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011890s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004214s ]
+
+[ 2017-04-07T10:13:53+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006211s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003038s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016233s ]
+SQL: SELECT * FROM `user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.016327s ]
+
+[ 2017-04-07T10:14:14+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003286s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002914s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015650s ]
+SQL: SELECT * FROM `user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000464s ]
+
+[ 2017-04-07T10:14:46+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001225s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014902s ]
+SQL: SELECT * FROM `user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000309s ]
+
+[ 2017-04-07T10:16:17+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003149s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003264s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003077s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.030253s ]
+SQL: SELECT * FROM `user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000651s ]
+
+[ 2017-04-07T10:16:35+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003554s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003675s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003579s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.064541s ]
+SQL: SELECT * FROM `user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000752s ]
+
+[ 2017-04-07T10:16:55+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003245s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014954s ]
+SQL: SELECT * FROM `user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000410s ]
+
+[ 2017-04-07T10:18:23+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001243s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015114s ]
+SQL: SELECT `id` FROM `user` LIMIT 1   [ RunTime:0.000327s ]
+
+[ 2017-04-07T10:18:42+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003608s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003041s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017816s ]
+SQL: SELECT `id` FROM `user` LIMIT 1   [ RunTime:0.000502s ]
+
+[ 2017-04-07T10:18:58+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004587s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004716s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003046s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.019034s ]
+SQL: SELECT `id` FROM `user` LIMIT 1   [ RunTime:0.000358s ]
+
+[ 2017-04-07T10:19:14+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015056s ]
+SQL: SELECT `id` FROM `user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000339s ]
+
+[ 2017-04-07T10:19:16+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016984s ]
+SQL: SELECT `id` FROM `user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000342s ]
+
+[ 2017-04-07T10:19:23+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005447s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004525s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.019334s ]
+SQL: SELECT `id` FROM `user` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000352s ]
+
+[ 2017-04-07T10:19:35+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014659s ]
+SQL: SELECT * FROM `user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000328s ]
+
+[ 2017-04-07T10:19:42+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.019987s ]
+SQL: SELECT * FROM `user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000563s ]
+
+[ 2017-04-07T10:20:02+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001249s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015989s ]
+SQL: SELECT `id`,`username`,`password` FROM `user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000442s ]
+
+[ 2017-04-07T10:20:10+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001365s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.022961s ]
+SQL: SELECT `id`,`username`,`password` FROM `user` LIMIT 1   [ RunTime:0.000499s ]
+
+[ 2017-04-07T10:20:24+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+
+[ 2017-04-07T10:20:30+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017891s ]
+
+[ 2017-04-07T10:20:45+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001306s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015162s ]
+SQL: SELECT `id`,`username`,`password` FROM `user` LIMIT 1   [ RunTime:0.000293s ]
+
+[ 2017-04-07T10:30:12+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnrollOk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003158s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003273s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002998s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.055805s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE (  username='zhangsan2' || phone='17723432125'  ) LIMIT 1   [ RunTime:0.013285s ]
+
+[ 2017-04-07T10:30:16+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001244s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018205s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 57 行.
+
+[ 2017-04-07T10:30:17+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001251s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016085s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 57 行.
+
+[ 2017-04-07T10:30:20+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001646s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.018385s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 57 行.
+
+[ 2017-04-07T10:30:22+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001268s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017652s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 57 行.
+
+[ 2017-04-07T10:30:22+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006602s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003220s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003631s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002681s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012943s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004255s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004662s ]
+
+[ 2017-04-07T10:30:24+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001182s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016713s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000818s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000727s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000645s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003220s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001885s ]
+
+[ 2017-04-07T10:32:15+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleForm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003240s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002944s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.014897s ]
+SQL: SELECT * FROM `user` WHERE ( username='18819441529' AND password='123456' )  [ RunTime:0.000464s ]
+
+[ 2017-04-07T12:23:51+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004712s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056541s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005226s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003895s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017367s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005047s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005213s ]
+
+[ 2017-04-07T13:16:51+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004197s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003128s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:17:57+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004032s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005017s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:18:30+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002302s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:18:34+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001869s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:18:52+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002547s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002980s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:20:41+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:20:58+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001637s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:21:39+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:22:19+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004953s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:23:18+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001722s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001871s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002538s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:23:29+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001898s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002092s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:25:44+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:28:40+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002667s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:29:07+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003478s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003776s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:29:22+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002206s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:29:49+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002201s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:30:34+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:31:22+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002110s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:31:36+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002972s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002045s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:32:08+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002060s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:32:27+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001348s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:33:28+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001726s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:33:30+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:34:07+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002576s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T13:34:17+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003771s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004810s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:29:22+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002152s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:30:38+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001478s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:31:33+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002520s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:32:01+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:32:59+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:33:22+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:33:35+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001290s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:34:03+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:34:56+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002284s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002513s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:35:29+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001668s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001846s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:35:54+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003454s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:36:19+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005266s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:36:34+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:37:20+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:37:30+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T19:58:40+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029132s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000866s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000713s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000563s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003153s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2017-04-07T20:01:47+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001570s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002375s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000676s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005796s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2017-04-07T20:01:50+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001424s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:01:54+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007698s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007889s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005668s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:04:04+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003425s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003006s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:04:07+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006235s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007113s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:04:52+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003299s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004085s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:05:04+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004645s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:06:01+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001449s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:06:16+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:06:33+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002785s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:06:47+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:07:22+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001978s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:07:58+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T20:55:28+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T22:41:18+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002643s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T22:41:22+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004650s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:42:21+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:42:29+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:42:45+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:42:53+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001258s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:42:55+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003678s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002997s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:43:49+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002287s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:44:14+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001241s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:44:25+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:44:36+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007822s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008011s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:44:57+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004361s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:45:26+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006508s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006771s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009398s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:45:40+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002874s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003114s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:46:15+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002029s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:46:26+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002013s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002217s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-07T23:47:27+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+ERR: 无法加载模块:Public
+

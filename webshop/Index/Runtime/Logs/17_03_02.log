@@ -1,0 +1,40 @@
+[ 2017-03-02T18:31:39+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.061848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.099037s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062448s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.026995s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003352s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010863s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.057332s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007125s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007218s ]
+
+[ 2017-03-02T18:31:40+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031122s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003012s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003200s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002801s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013310s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003242s ]
+

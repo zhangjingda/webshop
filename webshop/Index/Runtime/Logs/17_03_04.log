@@ -1,0 +1,2531 @@
+[ 2017-03-04T17:36:15+08:00 ] 127.0.0.1 /webshop/admin.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.269308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.354309s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.330002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.330172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.029527s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.013234s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.012414s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.063357s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004048s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004146s ]
+
+[ 2017-03-04T19:29:30+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.025926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042456s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.173324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173474s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.028017s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.013510s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003890s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.054257s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003921s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004055s ]
+
+[ 2017-03-04T19:29:30+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.025564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.042087s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.171925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172082s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.029368s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.013261s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004113s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.055928s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006319s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006420s ]
+
+[ 2017-03-04T19:30:45+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006810s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:1.966467s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.050081s ]
+
+[ 2017-03-04T19:30:47+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003461s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.095125s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000415s ]
+
+[ 2017-03-04T19:34:59+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003753s ]
+
+[ 2017-03-04T19:35:30+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.077026s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000403s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined variable: result E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 18 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031817s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002900s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002808s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011875s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003752s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003868s ]
+
+[ 2017-03-04T19:35:54+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004525s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.042017s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000474s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.113487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113632s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004400s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003962s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015954s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005327s ]
+
+[ 2017-03-04T19:36:01+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.070728s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030413s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001086s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000750s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003529s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2017-03-04T19:36:17+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.025936s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024856s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000759s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000761s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003210s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2017-03-04T19:36:23+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.041682s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020888s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000697s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003052s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000973s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2017-03-04T19:36:40+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.035626s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025475s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000872s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000790s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003822s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2017-03-04T19:36:46+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.040957s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000492s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022777s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000729s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000727s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003076s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2017-03-04T19:37:08+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.026466s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000572s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined index:  id E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 18 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028141s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001157s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000909s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005497s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002021s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002154s ]
+
+[ 2017-03-04T19:37:10+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.028732s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000306s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined index:  id E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 18 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023264s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000986s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001094s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002543s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006524s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001573s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2017-03-04T19:37:22+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003673s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.033981s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Trying to get property of non-object E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 18 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046680s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003088s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003262s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003575s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013122s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003802s ]
+
+[ 2017-03-04T19:40:06+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.025248s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.001059s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined variable: id E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 18 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032320s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002903s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002996s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002722s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011810s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003144s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003239s ]
+
+[ 2017-03-04T19:40:11+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.026043s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000340s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined variable: id E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 18 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024527s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001107s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001092s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001069s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004963s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001456s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2017-03-04T19:40:21+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003774s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.028112s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined variable: id E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 18 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037906s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004967s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005258s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004760s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020102s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004978s ]
+
+[ 2017-03-04T19:41:18+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.023750s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+
+[ 2017-03-04T19:41:34+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.032080s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+
+[ 2017-03-04T19:42:26+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003459s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.040284s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000414s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined variable: result E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031874s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003015s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003005s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002916s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003725s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003871s ]
+
+[ 2017-03-04T19:42:28+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.033612s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.009550s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined variable: result E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025693s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000704s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000586s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003362s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001095s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2017-03-04T19:42:32+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.031640s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined variable: result E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023477s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000971s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000724s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000713s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003813s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002654s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002809s ]
+
+[ 2017-03-04T19:42:41+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003277s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.028236s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined variable: result E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043103s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003873s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003891s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003584s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015082s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004358s ]
+
+[ 2017-03-04T19:45:12+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004418s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.026123s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004762s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003074s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002999s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014540s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003242s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003343s ]
+
+[ 2017-03-04T19:45:19+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004462s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.027770s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000439s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036076s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004325s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004738s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004534s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018905s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003811s ]
+
+[ 2017-03-04T19:46:16+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003387s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.025394s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032647s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002979s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003347s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002905s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014315s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003317s ]
+
+[ 2017-03-04T19:46:16+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.045912s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020599s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001216s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000882s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003926s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2017-03-04T19:47:18+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.044675s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021368s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000734s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000720s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003793s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2017-03-04T19:47:41+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004898s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005034s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.046511s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021300s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000721s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000652s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003233s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000954s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2017-03-04T19:47:59+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003344s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003471s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003142s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.051527s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined variable: think E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037284s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004455s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003039s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003739s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016318s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004676s ]
+
+[ 2017-03-04T19:48:02+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.028612s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined variable: think E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029880s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000747s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000809s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000681s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003330s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2017-03-04T19:48:05+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001886s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.026082s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.001214s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined variable: think E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 19 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022691s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000724s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000719s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003032s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000943s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2017-03-04T19:49:01+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.049451s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020818s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000769s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002095s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001093s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005688s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001481s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001606s ]
+
+[ 2017-03-04T19:49:32+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003334s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003449s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003644s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.029263s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+
+[ 2017-03-04T19:49:52+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002154s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.026303s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.002079s ]
+INFO: [ view_parse ] --START--
+
+[ 2017-03-04T19:50:05+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.025058s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined index:  VERSION E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 20 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020963s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004060s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002653s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012667s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003377s ]
+
+[ 2017-03-04T19:50:08+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001241s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.026622s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000339s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Undefined index:  VERSION E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 20 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026564s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001247s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001173s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005103s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2017-03-04T19:50:26+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003044s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.025151s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003010s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002995s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003932s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013786s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003143s ]
+
+[ 2017-03-04T19:52:01+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003572s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.041161s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031082s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002891s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003252s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003822s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013927s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004610s ]
+
+[ 2017-03-04T20:31:49+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003471s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003198s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.030209s ]
+SQL: select *from user [ RunTime:0.012312s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037144s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004800s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003842s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003817s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015775s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003247s ]
+
+[ 2017-03-04T20:31:58+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003727s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003864s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004563s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.050840s ]
+SQL: select *from user [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036428s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004262s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004174s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018063s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004327s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004441s ]
+
+[ 2017-03-04T20:32:01+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.034096s ]
+SQL: select *from user [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020932s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000749s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000759s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003409s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2017-03-04T20:32:21+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003268s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003382s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.035387s ]
+SQL: select *from user [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034351s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003762s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003508s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014876s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003270s ]
+
+[ 2017-03-04T20:42:13+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003348s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003467s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.027981s ]
+SQL: select *from user [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036106s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008893s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003520s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003633s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024495s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004205s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004337s ]
+
+[ 2017-03-04T20:53:48+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011993s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003724s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.046222s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.003404s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003482s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003825s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003626s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015023s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003238s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003338s ]
+
+[ 2017-03-04T20:53:49+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001422s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.030946s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023804s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001098s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001235s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005424s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001732s ]
+
+[ 2017-03-04T20:54:21+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003487s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003019s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.024072s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: temp E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 8 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+NOTIC: [8] Use of undefined constant __TMPL__ - assumed '__TMPL__' E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 10 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033213s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003137s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003453s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003056s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003057s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003149s ]
+
+[ 2017-03-04T21:28:35+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003422s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003583s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+
+[ 2017-03-04T21:28:53+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003555s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003297s ]
+
+[ 2017-03-04T21:29:34+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001258s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+
+[ 2017-03-04T21:29:35+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002618s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+
+[ 2017-03-04T21:29:36+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+
+[ 2017-03-04T21:29:54+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004427s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004555s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003067s ]
+
+[ 2017-03-04T21:29:56+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-03-04T21:30:37+08:00 ] 127.0.0.1 /webshop/index.php/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003291s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003405s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+
+[ 2017-03-04T21:30:57+08:00 ] 127.0.0.1 /webshop/index/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004233s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003156s ]
+NOTIC: [8] Undefined index:  aa E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 5 行.
+
+[ 2017-03-04T21:31:02+08:00 ] 127.0.0.1 /webshop/index/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+NOTIC: [8] Undefined index:  aa E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 5 行.
+
+[ 2017-03-04T21:31:42+08:00 ] 127.0.0.1 /webshop/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+
+[ 2017-03-04T21:31:45+08:00 ] 127.0.0.1 /webshop/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+
+[ 2017-03-04T21:31:50+08:00 ] 127.0.0.1 /webshop/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001229s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+
+[ 2017-03-04T21:32:38+08:00 ] 127.0.0.1 /webshop/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+
+[ 2017-03-04T21:33:15+08:00 ] 127.0.0.1 /webshop/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003420s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003849s ]
+
+[ 2017-03-04T21:33:30+08:00 ] 127.0.0.1 /webshop/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003498s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+
+[ 2017-03-04T21:33:32+08:00 ] 127.0.0.1 /webshop/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+
+[ 2017-03-04T21:33:38+08:00 ] 127.0.0.1 /webshop/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001218s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+
+[ 2017-03-04T21:33:53+08:00 ] 127.0.0.1 /webshop/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001225s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-03-04T21:34:13+08:00 ] 127.0.0.1 /webshop/Index/index/aa/123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001217s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-03-04T21:38:24+08:00 ] 127.0.0.1 /webshop/Index/index/aa/123.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003280s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003398s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003122s ]
+
+[ 2017-03-04T22:38:03+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003733s ]
+
+[ 2017-03-04T22:38:28+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003275s ]
+
+[ 2017-03-04T22:38:30+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-03-04T22:38:44+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004775s ]
+
+[ 2017-03-04T22:39:13+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004506s ]
+
+[ 2017-03-04T22:39:23+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+
+[ 2017-03-04T22:42:48+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003126s ]
+
+[ 2017-03-04T22:43:23+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-04T22:43:24+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-03-04T22:43:49+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003422s ]
+
+[ 2017-03-04T22:43:50+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+
+[ 2017-03-04T22:44:03+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+
+[ 2017-03-04T22:44:04+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+
+[ 2017-03-04T22:44:10+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+
+[ 2017-03-04T22:45:14+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003153s ]
+
+[ 2017-03-04T22:45:59+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003201s ]
+
+[ 2017-03-04T22:46:12+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+
+[ 2017-03-04T22:46:39+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003285s ]
+
+[ 2017-03-04T22:48:15+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+
+[ 2017-03-04T22:48:23+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003246s ]
+
+[ 2017-03-04T22:59:43+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003259s ]
+
+[ 2017-03-04T22:59:44+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+
+[ 2017-03-04T23:00:04+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003203s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003716s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003901s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003749s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014750s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005058s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005193s ]
+
+[ 2017-03-04T23:00:04+08:00 ] 127.0.0.1 /webshop/_PUBLIC_/bootstrap/css/bootstrap.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005295s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005487s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+NOTIC: [8] Undefined variable: group E:\www\webshop\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2017-03-04T23:00:05+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037126s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001185s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001164s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005071s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2017-03-04T23:00:05+08:00 ] 127.0.0.1 /webshop/_PUBLIC_/bootstrap/css/bootstrap.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+NOTIC: [8] Undefined variable: group E:\www\webshop\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2017-03-04T23:00:13+08:00 ] 127.0.0.1 /webshop/_PUBLIC_/bootstrap/css/bootstrap.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003414s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003539s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003055s ]
+NOTIC: [8] Undefined variable: group E:\www\webshop\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2017-03-04T23:00:23+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035847s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003698s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024255s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003531s ]
+
+[ 2017-03-04T23:00:23+08:00 ] 127.0.0.1 /webshop/_PUBLIC_/bootstrap/css/bootstrap.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002054s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [8] Undefined variable: group E:\www\webshop\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2017-03-04T23:01:14+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029888s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002924s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003028s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002971s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014681s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006469s ]
+
+[ 2017-03-04T23:01:14+08:00 ] 127.0.0.1 /webshop/_PUBLIC_/bootstrap/css/bootstrap.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003519s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [8] Undefined variable: group E:\www\webshop\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2017-03-04T23:01:20+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024282s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000760s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001057s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004726s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001197s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2017-03-04T23:01:20+08:00 ] 127.0.0.1 /webshop/_PUBLIC_/bootstrap/css/bootstrap.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+NOTIC: [8] Undefined variable: group E:\www\webshop\ThinkPHP\Lib\Core\App.class.php 第 102 行.
+ERR: 无法加载模块:_PUBLIC_
+
+[ 2017-03-04T23:01:44+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024150s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001435s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001161s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001153s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005544s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001485s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2017-03-04T23:01:44+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:09:15+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003192s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036398s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003961s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004496s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004577s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017787s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003614s ]
+
+[ 2017-03-04T23:09:16+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023784s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001091s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001084s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000967s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004522s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001456s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2017-03-04T23:09:24+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003075s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Form/Index.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.210633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210800s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004523s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004999s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018891s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003920s ]
+
+[ 2017-03-04T23:09:26+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Form/Index.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027819s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001382s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001104s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000906s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004928s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001443s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2017-03-04T23:09:29+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004139s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004279s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:09:32+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003132s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Form/Index.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030309s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003894s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003252s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002712s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013308s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003008s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003086s ]
+
+[ 2017-03-04T23:09:32+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005496s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005671s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:09:43+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Form/Index.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023550s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000781s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000750s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000691s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003403s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001325s ]
+
+[ 2017-03-04T23:09:43+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001283s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:11:56+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003047s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Form/Index.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033084s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003048s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002948s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012892s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003124s ]
+
+[ 2017-03-04T23:11:57+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004167s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:11:58+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Form/Index.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029423s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001224s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001057s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000772s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004516s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001202s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2017-03-04T23:11:58+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002101s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:12:00+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Form/Index.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026204s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000757s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000723s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003106s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2017-03-04T23:12:00+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:13:07+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Index/widh.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022009s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000757s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000738s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000672s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003211s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001208s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2017-03-04T23:13:07+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002117s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:13:17+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003258s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Index/widh.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.137627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137773s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003580s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006127s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004983s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018073s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003125s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003204s ]
+
+[ 2017-03-04T23:13:17+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004010s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:14:44+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006292s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Index/wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035529s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006742s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002736s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015982s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005926s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006051s ]
+
+[ 2017-03-04T23:14:44+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004112s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:14:49+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Index/wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043952s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001506s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001191s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001267s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005709s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001599s ]
+
+[ 2017-03-04T23:14:49+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Index/wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038229s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001106s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001136s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004873s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2017-03-04T23:14:49+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:14:49+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001268s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:16:17+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Index/wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031318s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001062s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001093s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004787s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001581s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2017-03-04T23:16:18+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:16:25+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Index/handle.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023053s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001073s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001090s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004624s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001204s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2017-03-04T23:16:25+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001301s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:17:00+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003046s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Index/handle.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002983s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002996s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002702s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013275s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004674s ]
+
+[ 2017-03-04T23:17:00+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004810s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005246s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:17:06+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Index/handle.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026591s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001064s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001024s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001602s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2017-03-04T23:17:06+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:17:47+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021701s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000744s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000725s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000618s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003147s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000990s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2017-03-04T23:17:47+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:18:39+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003964s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./../Tpl/Index/wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036662s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004603s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003524s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017481s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004724s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004850s ]
+
+[ 2017-03-04T23:18:40+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006019s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:18:41+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./../Tpl/Index/wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025370s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001141s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001111s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000906s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000999s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2017-03-04T23:18:41+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001270s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:18:51+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Tpl/Index/wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023518s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001158s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001073s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001086s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004916s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2017-03-04T23:18:51+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:19:37+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/webshop/Index/Tpl/Index/wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019601s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000756s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000804s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003333s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000989s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2017-03-04T23:19:37+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:19:39+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002195s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/webshop/Index/Tpl/Index/wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030827s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000922s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001131s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000988s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004714s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001433s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2017-03-04T23:19:39+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002544s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:19:43+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/webshop/Index/Tpl/Index/wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037329s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001615s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001154s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014434s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2017-03-04T23:19:43+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002243s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:19:43+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(/webshop/Index/Tpl/Index/wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038061s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001180s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001136s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007849s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2017-03-04T23:19:44+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002709s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:20:05+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/./wish.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021586s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000725s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000765s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000610s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003159s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2017-03-04T23:20:05+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:20:12+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003276s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035988s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004659s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004504s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018428s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005012s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005113s ]
+
+[ 2017-03-04T23:20:13+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005299s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005436s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:20:37+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024168s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001222s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001604s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005444s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001457s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2017-03-04T23:20:37+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001923s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:20:38+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035797s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000786s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003939s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000930s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2017-03-04T23:20:38+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001336s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:21:05+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003160s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Index/handle.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031323s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002888s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003029s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002723s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011870s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003198s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003288s ]
+
+[ 2017-03-04T23:21:05+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003259s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003368s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:24:53+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004359s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Index/Tpl/Index/handle.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory E:\www\webshop\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 695 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033581s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005452s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003090s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002865s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014770s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012065s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012185s ]
+
+[ 2017-03-04T23:24:54+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:26:11+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019370s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000788s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003300s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001034s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2017-03-04T23:26:11+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:29:36+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003157s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033440s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002932s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005558s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002852s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014575s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003265s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003381s ]
+
+[ 2017-03-04T23:30:34+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003082s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033494s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004554s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006743s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004370s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019696s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003406s ]
+
+[ 2017-03-04T23:30:35+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023278s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000725s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000729s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000605s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003089s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000994s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2017-03-04T23:30:37+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005139s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:30:39+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024295s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000714s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000729s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003111s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-03-04T23:30:39+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002368s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:31:02+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003378s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032612s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004287s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004988s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004248s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017769s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004088s ]
+
+[ 2017-03-04T23:31:02+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007306s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:32:00+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019827s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000725s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002240s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001169s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005213s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000974s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2017-03-04T23:32:00+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001867s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+ERR: 无法加载模块:Public
+
+[ 2017-03-04T23:43:31+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003134s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029937s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002890s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004396s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002756s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013264s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003194s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003280s ]
+
+[ 2017-03-04T23:43:43+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003211s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002938s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002911s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002719s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011833s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003014s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003092s ]
+
+[ 2017-03-04T23:43:44+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008643s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+ERR: 无法加载模块:Public
+

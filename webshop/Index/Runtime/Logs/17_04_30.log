@@ -1,0 +1,1295 @@
+[ 2017-04-30T01:00:33+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003416s ]
+SQL: SHOW COLUMNS FROM `mylist` [ RunTime:0.067934s ]
+SQL: select mylist.id, phone.phoneid,phone.proname,phone.provtitle,phone.color,phone.price,phone.size,phone.neicun,phone.cunchu,phone.dianchi,phone.brand from phone ,mylist where  phone.phoneid = mylist.phoneid order by  mylist.id [ RunTime:0.012149s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.017103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broadcast` LIMIT 1   [ RunTime:0.000429s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.016515s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: listdata E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 387 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 393 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 499 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 500 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065656s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003758s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004061s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017813s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005559s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005670s ]
+
+[ 2017-04-30T01:00:46+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/shopcart/?key=2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003368s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002975s ]
+NOTIC: [8] Undefined index:  username E:\www\webshop\Index\Lib\Action\ShopCartAction.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.106355s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.062380s ]
+SQL: select phone.phoneid,phone.proname,phone.protitle, phone.provtitle,phone.neicun,phone.cunchu,phone.color,phone.price,phone.imgsrc1 from phone,shopcart  where phone.phoneid = shopcart.phoneid  and username='' [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `buy` [ RunTime:0.046590s ]
+SQL: select buy.id,phone.proname,phone.color,phone.neicun,phone.cunchu, phone.imgsrc1 ,phone.phoneid from phone,buy where buy.username=''  and phone.phoneid = buy.phoneid order by time desc [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `store` [ RunTime:0.166100s ]
+SQL: select phone.proname,phone.color,phone.neicun,phone.cunchu, phone.imgsrc1 ,phone.phoneid from phone,store 
+                     where store.username=''  and phone.phoneid = store.phoneid [ RunTime:0.000684s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002879s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002755s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011874s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003307s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003442s ]
+
+[ 2017-04-30T01:00:47+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/getComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005069s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003050s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.030517s ]
+NOTIC: [8] Undefined index:  username E:\www\webshop\Index\Lib\Action\ShopCartAction.class.php 第 295 行.
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='' and buyid ='' ) ORDER BY time  [ RunTime:0.000365s ]
+
+[ 2017-04-30T01:00:49+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory/?brand=%E8%8B%B9%E6%9E%9C
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001169s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.089307s ]
+NOTIC: [8] Undefined variable: username E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 244 行.
+SQL: select recommend.time,phone.phoneid,phone.proname, phone.imgsrc1,phone.color from phone ,recommend where    phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.026440s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.021555s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `color` FROM `phone` WHERE ( brand='苹果' )  [ RunTime:0.000581s ]
+NOTIC: [8] Undefined offset:  5 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 273 行.
+NOTIC: [8] Undefined offset:  5 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 277 行.
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT * FROM `phone` WHERE (  brand='苹果'  )  [ RunTime:0.000551s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058286s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003797s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003683s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002792s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013480s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004315s ]
+
+[ 2017-04-30T01:01:01+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/shopcart/?key=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003285s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003042s ]
+NOTIC: [8] Undefined index:  username E:\www\webshop\Index\Lib\Action\ShopCartAction.class.php 第 101 行.
+SQL: SHOW COLUMNS FROM `shopcart` [ RunTime:0.015580s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.016024s ]
+SQL: select phone.phoneid,phone.proname,phone.protitle, phone.provtitle,phone.neicun,phone.cunchu,phone.color,phone.price,phone.imgsrc1 from phone,shopcart  where phone.phoneid = shopcart.phoneid  and username='' [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `buy` [ RunTime:0.015716s ]
+SQL: select buy.id,phone.proname,phone.color,phone.neicun,phone.cunchu, phone.imgsrc1 ,phone.phoneid from phone,buy where buy.username=''  and phone.phoneid = buy.phoneid order by time desc [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `store` [ RunTime:0.015504s ]
+SQL: select phone.proname,phone.color,phone.neicun,phone.cunchu, phone.imgsrc1 ,phone.phoneid from phone,store 
+                     where store.username=''  and phone.phoneid = store.phoneid [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036687s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003100s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003044s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002765s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012060s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003145s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003247s ]
+
+[ 2017-04-30T01:01:02+08:00 ] 127.0.0.1 /webshop/index.php/ShopCart/getComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001180s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.060916s ]
+NOTIC: [8] Undefined index:  username E:\www\webshop\Index\Lib\Action\ShopCartAction.class.php 第 295 行.
+SQL: SELECT `phoneid`,`content`,`time`,`star` FROM `comment` WHERE ( username='' and buyid ='' ) ORDER BY time  [ RunTime:0.000478s ]
+
+[ 2017-04-30T01:01:03+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001166s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `mylist` [ RunTime:0.015956s ]
+SQL: select mylist.id, phone.phoneid,phone.proname,phone.provtitle,phone.color,phone.price,phone.size,phone.neicun,phone.cunchu,phone.dianchi,phone.brand from phone ,mylist where  phone.phoneid = mylist.phoneid order by  mylist.id [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.031250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broadcast` LIMIT 1   [ RunTime:0.000436s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.015536s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: listdata E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 387 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 393 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 499 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 500 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067201s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001012s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000786s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003486s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001259s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2017-04-30T01:01:05+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001280s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037623s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001026s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000955s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004040s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001268s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2017-04-30T01:01:10+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003469s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003614s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017601s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 65 行.
+
+[ 2017-04-30T01:01:10+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001251s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017618s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 65 行.
+
+[ 2017-04-30T01:01:11+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017459s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 65 行.
+
+[ 2017-04-30T01:01:12+08:00 ] 127.0.0.1 /webshop/index.php/Form/isUserNameEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015473s ]
+NOTIC: [8] Undefined variable: num E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 65 行.
+
+[ 2017-04-30T01:01:17+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069199s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002899s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003188s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004931s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015197s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004495s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004653s ]
+
+[ 2017-04-30T01:01:44+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleForm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.023992s ]
+SQL: SELECT * FROM `user` WHERE ( username='zhangsan' AND password='12345' )  [ RunTime:0.000541s ]
+
+[ 2017-04-30T01:01:50+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleForm
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016770s ]
+SQL: SELECT * FROM `user` WHERE ( username='zhangsan' AND password='123456' )  [ RunTime:0.000634s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given E:\www\webshop\Index\Lib\Action\FormAction.class.php 第 107 行.
+
+[ 2017-04-30T01:01:50+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `mylist` [ RunTime:0.015373s ]
+SQL: select mylist.id, phone.phoneid,phone.proname,phone.provtitle,phone.color,phone.price,phone.size,phone.neicun,phone.cunchu,phone.dianchi,phone.brand from phone ,mylist where  phone.phoneid = mylist.phoneid order by  mylist.id [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.015489s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broadcast` LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.015321s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: listdata E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 387 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 393 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 499 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 500 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056260s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001480s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001104s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004391s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2017-04-30T01:01:52+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct/?phoneid=5443g5gg55
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016428s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.016064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `recommend` WHERE ( username='zhangsan' and phoneid='5443g5gg55' ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: INSERT INTO `recommend` (`username`,`phoneid`) VALUES ('zhangsan','5443g5gg55') [ RunTime:0.233824s ]
+SQL: select recommend.time,phone.phoneid,phone.proname,phone.imgsrc1, phone.color from phone  ,recommend  where username='zhangsan' and phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.009550s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.026394s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000473s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4 ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.058773s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star=1  ) LIMIT 1   [ RunTime:0.000918s ]
+SQL: SELECT * FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000754s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `phoneid`,`color` FROM `phone` WHERE ( proname='华为p10'and phoneid!='5443g5gg55' and color!='赭石黑' )  [ RunTime:0.000598s ]
+SQL: SELECT `phoneid`,`neicun`,`cunchu` FROM `phone` WHERE ( proname='华为p10' and phoneid!='5443g5gg55' and color='赭石黑'  )  [ RunTime:0.000603s ]
+NOTIC: [8] Undefined index:  imgsrc7 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc8 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc9 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc10 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc11 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc12 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc13 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc14 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc15 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc16 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc17 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc18 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc19 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc20 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc21 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc22 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc23 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.098860s ]
+SQL: SELECT * FROM `allnum` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000835s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  bigimg5 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 432 行.
+NOTIC: [8] Undefined index:  bigimg6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 434 行.
+NOTIC: [8] Undefined index:  bigimg7 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 436 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052435s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000946s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000801s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003365s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001093s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-04-30T01:01:53+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=5443g5gg55&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001246s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.016545s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016471s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000377s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4  ) LIMIT 1   [ RunTime:0.000248s ]
+
+[ 2017-04-30T01:01:53+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003651s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002253s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.018600s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.022594s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000394s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000278s ]
+
+[ 2017-04-30T01:02:05+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=5443g5gg55&page=0&index=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.015980s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016550s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000482s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star=1  ) LIMIT 1   [ RunTime:0.000337s ]
+
+[ 2017-04-30T01:02:05+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.016004s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.015906s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000487s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star=1  ) ORDER BY id desc LIMIT -5,5   [ RunTime:0.027774s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `comment` WHERE ( proname='华为p10' and star=1  ) ORDER BY id desc LIMIT -5,5  
+
+[ 2017-04-30T01:02:05+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=5443g5gg55&page=0&index=3
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001305s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.016839s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016025s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.000248s ]
+
+[ 2017-04-30T01:02:06+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001247s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.016572s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016166s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000357s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) ORDER BY id desc LIMIT -5,5   [ RunTime:0.000196s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) ORDER BY id desc LIMIT -5,5  
+
+[ 2017-04-30T01:02:06+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=5443g5gg55&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.015637s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.031267s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000394s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4  ) LIMIT 1   [ RunTime:0.000317s ]
+
+[ 2017-04-30T01:02:07+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001355s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.016297s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016243s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000398s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000343s ]
+
+[ 2017-04-30T01:03:03+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct/phoneid/135435d12d/neicun/4g/cunchu/64g/color/%E7%B2%89%E8%89%B2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003173s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016208s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.016207s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `recommend` WHERE ( username='zhangsan' and phoneid='135435d12d' ) LIMIT 1   [ RunTime:0.000661s ]
+SQL: INSERT INTO `recommend` (`username`,`phoneid`) VALUES ('zhangsan','135435d12d') [ RunTime:0.067703s ]
+SQL: select recommend.time,phone.phoneid,phone.proname,phone.imgsrc1, phone.color from phone  ,recommend  where username='zhangsan' and phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.010182s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.022127s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4 ) LIMIT 1   [ RunTime:0.000395s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star=1  ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SELECT * FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000438s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `phoneid`,`color` FROM `phone` WHERE ( proname='华为p10'and phoneid!='135435d12d' and color!='粉色' )  [ RunTime:0.000342s ]
+SQL: SELECT `phoneid`,`neicun`,`cunchu` FROM `phone` WHERE ( proname='华为p10' and phoneid!='135435d12d' and color='粉色'  )  [ RunTime:0.000734s ]
+NOTIC: [8] Undefined index:  imgsrc7 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc8 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc9 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc10 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc11 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc12 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc13 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc14 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc15 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc16 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc17 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc18 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc19 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc20 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc21 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc22 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc23 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.020544s ]
+SQL: SELECT * FROM `allnum` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000360s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  bigimg5 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 432 行.
+NOTIC: [8] Undefined index:  bigimg6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 434 行.
+NOTIC: [8] Undefined index:  bigimg7 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 436 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056499s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003037s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002865s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014045s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003312s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003485s ]
+
+[ 2017-04-30T01:03:04+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=135435d12d&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005052s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004953s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.038920s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.017000s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.001281s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4  ) LIMIT 1   [ RunTime:0.000606s ]
+
+[ 2017-04-30T01:03:04+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.015584s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.015297s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000337s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT -5,5   [ RunTime:0.000263s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT -5,5  
+
+[ 2017-04-30T01:03:07+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct/phoneid/f3g141sff1/neicun/3g/cunchu/32g/color/%E8%8D%89%E6%9C%A8%E7%BB%BF
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.015827s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.016399s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `recommend` WHERE ( username='zhangsan' and phoneid='f3g141sff1' ) LIMIT 1   [ RunTime:0.000656s ]
+SQL: INSERT INTO `recommend` (`username`,`phoneid`) VALUES ('zhangsan','f3g141sff1') [ RunTime:0.094599s ]
+SQL: select recommend.time,phone.phoneid,phone.proname,phone.imgsrc1, phone.color from phone  ,recommend  where username='zhangsan' and phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.008939s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.021105s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='f3g141sff1' )  [ RunTime:0.000575s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.000376s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star=1  ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT * FROM `phone` WHERE ( phoneid='f3g141sff1' )  [ RunTime:0.000494s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `phoneid`,`color` FROM `phone` WHERE ( proname='华为p10'and phoneid!='f3g141sff1' and color!='草木绿' )  [ RunTime:0.000405s ]
+SQL: SELECT `phoneid`,`neicun`,`cunchu` FROM `phone` WHERE ( proname='华为p10' and phoneid!='f3g141sff1' and color='草木绿'  )  [ RunTime:0.000442s ]
+NOTIC: [8] Undefined index:  imgsrc7 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc8 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc9 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc10 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc11 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc12 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc13 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc14 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc15 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc16 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc17 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc18 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc19 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc20 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc21 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc22 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc23 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.015523s ]
+SQL: SELECT * FROM `allnum` WHERE ( phoneid='f3g141sff1' )  [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  bigimg5 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 432 行.
+NOTIC: [8] Undefined index:  bigimg6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 434 行.
+NOTIC: [8] Undefined index:  bigimg7 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 436 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066861s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003123s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004245s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002640s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013127s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003931s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004069s ]
+
+[ 2017-04-30T01:03:07+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=f3g141sff1&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.016229s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016347s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='f3g141sff1' )  [ RunTime:0.000675s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4  ) LIMIT 1   [ RunTime:0.000572s ]
+
+[ 2017-04-30T01:03:07+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001705s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.018096s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016243s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='f3g141sff1' )  [ RunTime:0.000429s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000333s ]
+
+[ 2017-04-30T01:03:09+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct/phoneid/5443g5gg55/neicun/4g/cunchu/128g/color/%E8%B5%AD%E7%9F%B3%E9%BB%91
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001379s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016380s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.016307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `recommend` WHERE ( username='zhangsan' and phoneid='5443g5gg55' ) LIMIT 1   [ RunTime:0.000758s ]
+SQL: INSERT INTO `recommend` (`username`,`phoneid`) VALUES ('zhangsan','5443g5gg55') [ RunTime:0.075427s ]
+SQL: select recommend.time,phone.phoneid,phone.proname,phone.imgsrc1, phone.color from phone  ,recommend  where username='zhangsan' and phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.008965s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.023433s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000640s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' ) LIMIT 1   [ RunTime:0.000387s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4 ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star=1  ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT * FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000407s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `phoneid`,`color` FROM `phone` WHERE ( proname='华为p10'and phoneid!='5443g5gg55' and color!='赭石黑' )  [ RunTime:0.000330s ]
+SQL: SELECT `phoneid`,`neicun`,`cunchu` FROM `phone` WHERE ( proname='华为p10' and phoneid!='5443g5gg55' and color='赭石黑'  )  [ RunTime:0.000367s ]
+NOTIC: [8] Undefined index:  imgsrc7 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc8 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc9 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc10 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc11 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc12 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc13 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc14 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc15 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc16 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc17 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc18 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc19 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc20 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc21 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc22 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc23 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.015808s ]
+SQL: SELECT * FROM `allnum` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  bigimg5 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 432 行.
+NOTIC: [8] Undefined index:  bigimg6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 434 行.
+NOTIC: [8] Undefined index:  bigimg7 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 436 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050348s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003685s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002864s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003592s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014409s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004280s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004421s ]
+
+[ 2017-04-30T01:03:09+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=5443g5gg55&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001186s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.029322s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.015429s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000454s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4  ) LIMIT 1   [ RunTime:0.000410s ]
+
+[ 2017-04-30T01:03:09+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001570s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001800s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001958s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.017882s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016881s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000512s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000291s ]
+
+[ 2017-04-30T01:03:10+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct/phoneid/daa5442435/neicun/4g/cunchu/64g/color/%E9%92%BB%E9%9B%95%E9%87%91
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016276s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.015924s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `recommend` WHERE ( username='zhangsan' and phoneid='daa5442435' ) LIMIT 1   [ RunTime:0.000583s ]
+SQL: INSERT INTO `recommend` (`username`,`phoneid`) VALUES ('zhangsan','daa5442435') [ RunTime:0.178983s ]
+SQL: select recommend.time,phone.phoneid,phone.proname,phone.imgsrc1, phone.color from phone  ,recommend  where username='zhangsan' and phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.009081s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.019776s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='daa5442435' )  [ RunTime:0.000362s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star=1  ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT * FROM `phone` WHERE ( phoneid='daa5442435' )  [ RunTime:0.000350s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `phoneid`,`color` FROM `phone` WHERE ( proname='华为p10'and phoneid!='daa5442435' and color!='钻雕金' )  [ RunTime:0.000273s ]
+SQL: SELECT `phoneid`,`neicun`,`cunchu` FROM `phone` WHERE ( proname='华为p10' and phoneid!='daa5442435' and color='钻雕金'  )  [ RunTime:0.000270s ]
+NOTIC: [8] Undefined index:  imgsrc7 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc8 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc9 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc10 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc11 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc12 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc13 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc14 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc15 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc16 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc17 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc18 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc19 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc20 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc21 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc22 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc23 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.016254s ]
+SQL: SELECT * FROM `allnum` WHERE ( phoneid='daa5442435' )  [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  bigimg5 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 432 行.
+NOTIC: [8] Undefined index:  bigimg6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 434 行.
+NOTIC: [8] Undefined index:  bigimg7 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 436 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039977s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000968s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000793s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003513s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001275s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2017-04-30T01:03:11+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=daa5442435&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003226s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003338s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003057s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.019711s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.023348s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='daa5442435' )  [ RunTime:0.000346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4  ) LIMIT 1   [ RunTime:0.000276s ]
+
+[ 2017-04-30T01:03:11+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001272s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.018542s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016841s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='daa5442435' )  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000275s ]
+
+[ 2017-04-30T01:03:13+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct/phoneid/135435d12d/neicun/4g/cunchu/64g/color/%E7%B2%89%E8%89%B2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016739s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.016379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `recommend` WHERE ( username='zhangsan' and phoneid='135435d12d' ) LIMIT 1   [ RunTime:0.000579s ]
+SQL: INSERT INTO `recommend` (`username`,`phoneid`) VALUES ('zhangsan','135435d12d') [ RunTime:0.032917s ]
+SQL: select recommend.time,phone.phoneid,phone.proname,phone.imgsrc1, phone.color from phone  ,recommend  where username='zhangsan' and phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.004456s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.016216s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000619s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star=1  ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000365s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `phoneid`,`color` FROM `phone` WHERE ( proname='华为p10'and phoneid!='135435d12d' and color!='粉色' )  [ RunTime:0.000294s ]
+SQL: SELECT `phoneid`,`neicun`,`cunchu` FROM `phone` WHERE ( proname='华为p10' and phoneid!='135435d12d' and color='粉色'  )  [ RunTime:0.000327s ]
+NOTIC: [8] Undefined index:  imgsrc7 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc8 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc9 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc10 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc11 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc12 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc13 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc14 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc15 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc16 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc17 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc18 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc19 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc20 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc21 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc22 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc23 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.016658s ]
+SQL: SELECT * FROM `allnum` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  bigimg5 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 432 行.
+NOTIC: [8] Undefined index:  bigimg6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 434 行.
+NOTIC: [8] Undefined index:  bigimg7 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 436 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049821s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003560s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003059s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002811s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012666s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003849s ]
+
+[ 2017-04-30T01:03:13+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=135435d12d&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002342s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003649s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.017480s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.015838s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000352s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4  ) LIMIT 1   [ RunTime:0.000297s ]
+
+[ 2017-04-30T01:03:13+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.016730s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016420s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000535s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000386s ]
+
+[ 2017-04-30T01:03:14+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct/phoneid/5443g5gg55/neicun/3g/cunchu/32g/color/%E8%B5%AD%E7%9F%B3%E9%BB%91
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.015687s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.016115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `recommend` WHERE ( username='zhangsan' and phoneid='5443g5gg55' ) LIMIT 1   [ RunTime:0.000619s ]
+SQL: INSERT INTO `recommend` (`username`,`phoneid`) VALUES ('zhangsan','5443g5gg55') [ RunTime:0.053325s ]
+SQL: select recommend.time,phone.phoneid,phone.proname,phone.imgsrc1, phone.color from phone  ,recommend  where username='zhangsan' and phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.009091s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.020737s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000535s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' ) LIMIT 1   [ RunTime:0.000413s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4 ) LIMIT 1   [ RunTime:0.000454s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star=1  ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: SELECT * FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000536s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `phoneid`,`color` FROM `phone` WHERE ( proname='华为p10'and phoneid!='5443g5gg55' and color!='赭石黑' )  [ RunTime:0.000415s ]
+SQL: SELECT `phoneid`,`neicun`,`cunchu` FROM `phone` WHERE ( proname='华为p10' and phoneid!='5443g5gg55' and color='赭石黑'  )  [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index:  imgsrc7 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc8 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc9 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc10 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc11 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc12 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc13 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc14 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc15 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc16 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc17 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc18 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc19 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc20 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc21 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc22 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc23 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.028708s ]
+SQL: SELECT * FROM `allnum` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  bigimg5 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 432 行.
+NOTIC: [8] Undefined index:  bigimg6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 434 行.
+NOTIC: [8] Undefined index:  bigimg7 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 436 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040920s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001398s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000755s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004917s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001155s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2017-04-30T01:03:14+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=5443g5gg55&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001229s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.034081s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.015361s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000398s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4  ) LIMIT 1   [ RunTime:0.000320s ]
+
+[ 2017-04-30T01:03:15+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001719s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.017723s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.017284s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='5443g5gg55' )  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000301s ]
+
+[ 2017-04-30T01:03:18+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct/phoneid/135435d12d/neicun/4g/cunchu/64g/color/%E7%B2%89%E8%89%B2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001295s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016022s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.016226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `recommend` WHERE ( username='zhangsan' and phoneid='135435d12d' ) LIMIT 1   [ RunTime:0.000571s ]
+SQL: INSERT INTO `recommend` (`username`,`phoneid`) VALUES ('zhangsan','135435d12d') [ RunTime:0.057079s ]
+SQL: select recommend.time,phone.phoneid,phone.proname,phone.imgsrc1, phone.color from phone  ,recommend  where username='zhangsan' and phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.007328s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.020584s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000569s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4 ) LIMIT 1   [ RunTime:0.000392s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star=1  ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SELECT * FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000446s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `phoneid`,`color` FROM `phone` WHERE ( proname='华为p10'and phoneid!='135435d12d' and color!='粉色' )  [ RunTime:0.000296s ]
+SQL: SELECT `phoneid`,`neicun`,`cunchu` FROM `phone` WHERE ( proname='华为p10' and phoneid!='135435d12d' and color='粉色'  )  [ RunTime:0.000285s ]
+NOTIC: [8] Undefined index:  imgsrc7 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc8 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc9 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc10 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc11 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc12 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc13 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc14 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc15 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc16 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc17 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc18 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc19 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc20 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc21 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc22 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc23 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.016360s ]
+SQL: SELECT * FROM `allnum` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  bigimg5 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 432 行.
+NOTIC: [8] Undefined index:  bigimg6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 434 行.
+NOTIC: [8] Undefined index:  bigimg7 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 436 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040565s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000926s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000733s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003373s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2017-04-30T01:03:18+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=135435d12d&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001264s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.015427s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.015945s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000406s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4  ) LIMIT 1   [ RunTime:0.000326s ]
+
+[ 2017-04-30T01:03:18+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.018014s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.018670s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='135435d12d' )  [ RunTime:0.000424s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000349s ]
+
+[ 2017-04-30T01:03:19+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct/phoneid/f3g141sff1/neicun/3g/cunchu/32g/color/%E8%8D%89%E6%9C%A8%E7%BB%BF
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001240s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016102s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.015985s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `recommend` WHERE ( username='zhangsan' and phoneid='f3g141sff1' ) LIMIT 1   [ RunTime:0.000655s ]
+SQL: INSERT INTO `recommend` (`username`,`phoneid`) VALUES ('zhangsan','f3g141sff1') [ RunTime:0.051220s ]
+SQL: select recommend.time,phone.phoneid,phone.proname,phone.imgsrc1, phone.color from phone  ,recommend  where username='zhangsan' and phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.007719s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.024491s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='f3g141sff1' )  [ RunTime:0.000436s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4 ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star=1  ) LIMIT 1   [ RunTime:0.000359s ]
+SQL: SELECT * FROM `phone` WHERE ( phoneid='f3g141sff1' )  [ RunTime:0.000422s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `phoneid`,`color` FROM `phone` WHERE ( proname='华为p10'and phoneid!='f3g141sff1' and color!='草木绿' )  [ RunTime:0.000336s ]
+SQL: SELECT `phoneid`,`neicun`,`cunchu` FROM `phone` WHERE ( proname='华为p10' and phoneid!='f3g141sff1' and color='草木绿'  )  [ RunTime:0.000362s ]
+NOTIC: [8] Undefined index:  imgsrc7 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc8 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc9 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc10 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc11 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc12 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc13 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc14 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc15 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc16 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc17 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc18 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc19 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc20 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc21 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc22 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc23 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.017190s ]
+SQL: SELECT * FROM `allnum` WHERE ( phoneid='f3g141sff1' )  [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  bigimg5 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 432 行.
+NOTIC: [8] Undefined index:  bigimg6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 434 行.
+NOTIC: [8] Undefined index:  bigimg7 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 436 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042053s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000937s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000729s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003327s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001086s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2017-04-30T01:03:19+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=f3g141sff1&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.015426s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.015775s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='f3g141sff1' )  [ RunTime:0.000394s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4  ) LIMIT 1   [ RunTime:0.000322s ]
+
+[ 2017-04-30T01:03:20+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002656s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.021261s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.024170s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='f3g141sff1' )  [ RunTime:0.000410s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000277s ]
+
+[ 2017-04-30T01:03:21+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct/phoneid/sg12f5a3f3/neicun/4g/cunchu/128g/color/%E8%8D%89%E6%9C%A8%E7%BB%BF
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001170s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016600s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `recommend` [ RunTime:0.015841s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `recommend` WHERE ( username='zhangsan' and phoneid='sg12f5a3f3' ) LIMIT 1   [ RunTime:0.000624s ]
+SQL: INSERT INTO `recommend` (`username`,`phoneid`) VALUES ('zhangsan','sg12f5a3f3') [ RunTime:0.085759s ]
+SQL: select recommend.time,phone.phoneid,phone.proname,phone.imgsrc1, phone.color from phone  ,recommend  where username='zhangsan' and phone.phoneid = recommend.phoneid order by recommend.time desc [ RunTime:0.005860s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.016382s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='sg12f5a3f3' )  [ RunTime:0.000590s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' ) LIMIT 1   [ RunTime:0.000547s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4 ) LIMIT 1   [ RunTime:0.000451s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star between 2 and 3  ) LIMIT 1   [ RunTime:0.000457s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star=1  ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SELECT * FROM `phone` WHERE ( phoneid='sg12f5a3f3' )  [ RunTime:0.000455s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `phoneid`,`color` FROM `phone` WHERE ( proname='华为p10'and phoneid!='sg12f5a3f3' and color!='草木绿' )  [ RunTime:0.000422s ]
+SQL: SELECT `phoneid`,`neicun`,`cunchu` FROM `phone` WHERE ( proname='华为p10' and phoneid!='sg12f5a3f3' and color='草木绿'  )  [ RunTime:0.000354s ]
+NOTIC: [8] Undefined index:  imgsrc7 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc8 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc9 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc10 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc11 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc12 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc13 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc14 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc15 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc16 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc17 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc18 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc19 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc20 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc21 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc22 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+NOTIC: [8] Undefined index:  imgsrc23 E:\www\webshop\Index\Lib\Action\IndexAction.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.017539s ]
+SQL: SELECT * FROM `allnum` WHERE ( phoneid='sg12f5a3f3' )  [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  bigimg5 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 432 行.
+NOTIC: [8] Undefined index:  bigimg6 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 434 行.
+NOTIC: [8] Undefined index:  bigimg7 E:\www\webshop\Index\Runtime\Cache\7dc461755afe0040285ce84aece2b697.php 第 436 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039713s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000930s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000721s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003228s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2017-04-30T01:03:21+08:00 ] 127.0.0.1 /webshop/index.php/Index/getPageNum?phoneid=sg12f5a3f3&page=0&index=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001482s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.023960s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.018315s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='sg12f5a3f3' )  [ RunTime:0.000570s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `comment` WHERE ( proname='华为p10' and star>=4  ) LIMIT 1   [ RunTime:0.000472s ]
+
+[ 2017-04-30T01:03:22+08:00 ] 127.0.0.1 /webshop/index.php/Index/showComment
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003422s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.018457s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.018346s ]
+SQL: SELECT `proname` FROM `phone` WHERE ( phoneid='sg12f5a3f3' )  [ RunTime:0.000346s ]
+SQL: SELECT * FROM `comment` WHERE ( proname='华为p10' and star>=4  ) ORDER BY id desc LIMIT 0,5   [ RunTime:0.000357s ]
+

@@ -1,0 +1,710 @@
+[ 2017-04-10T00:01:07+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002208s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:02:15+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:03:11+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:04:25+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001896s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:05:18+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:05:33+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:05:49+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002668s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:06:51+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001918s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002100s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:07:34+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001716s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001869s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:08:00+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001605s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001747s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:08:18+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:08:51+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:09:42+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002438s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:31:37+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:32:20+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002020s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002207s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:33:35+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:34:11+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002176s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002369s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:34:54+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002805s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:35:09+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T00:35:50+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004335s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004525s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T11:24:30+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004439s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052318s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003527s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004761s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004194s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016735s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004911s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005062s ]
+
+[ 2017-04-10T11:30:44+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T11:30:45+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001254s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:13:36+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001260s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:13:38+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:15:04+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:15:16+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003294s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003662s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001709s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:20:08+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002715s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002980s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002633s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:20:34+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002356s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002552s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:21:37+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:22:02+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003415s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:22:25+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001931s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:23:26+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002044s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002235s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:23:58+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:24:23+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001246s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:45:56+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003472s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005101s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T12:45:58+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002058s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T13:13:33+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T13:13:35+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002150s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T13:13:40+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003465s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T13:14:04+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001877s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002185s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T13:14:43+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002226s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T13:15:11+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002092s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003031s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T13:16:04+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T13:58:21+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001869s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002090s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T13:58:52+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007881s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008261s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004862s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T13:59:07+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001939s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:00:13+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003983s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005006s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:00:35+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002148s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002213s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:01:15+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005355s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:02:35+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002148s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:03:38+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002140s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:03:58+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001896s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:15:42+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:16:37+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002143s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:17:19+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001984s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002161s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:17:42+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:18:24+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.022583s ]
+INFO: [ route_check ] --END-- [ RunTime:0.022830s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.124794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.125017s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:18:54+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001809s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001985s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:19:13+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001244s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:20:38+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:22:33+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:22:55+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002142s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:23:31+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001253s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:23:46+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T14:24:38+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005105s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005163s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T22:25:24+08:00 ] 127.0.0.1 /webshop/Admin/adminHome/p/4.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-04-10T22:29:36+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T22:30:10+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002011s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002194s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T22:30:16+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004036s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004163s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003226s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T22:30:18+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003375s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003567s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T22:30:41+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001986s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002171s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T22:31:00+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T22:31:27+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T22:31:35+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002345s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T22:31:38+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T22:31:48+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002092s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+ERR: 无法加载模块:Public
+
+[ 2017-04-10T22:32:55+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005570s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005759s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006982s ]
+ERR: 无法加载模块:Public
+

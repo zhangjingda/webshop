@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{:C('STATIC_RES')}/css/common.min.css">
+		<link rel="stylesheet" href="{:C('STATIC_RES')}/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="__PUBLIC__/css/index.css">
+		<link rel= "stylesheet" href="__PUBLIC__/css/money.css">
+		<script type='text/javascript' src="{:C('STATIC_RES')}/js/jquery-2.1.1.min.js"></script>
+
+
+    </head>
+
+<body>
+
+
+<header>
+   <div class="navSection">
+      <div>
+          <ul class="nav_lef">
+              <li><a href="__APP__/Index/index">首页</a><span>|</span></li>
+              <?php 
+
+               if(session("username")){
+                    echo '<li>
+                    <a href="__APP__/Form/handleLogin" style="padding: 0" id="abc">欢迎'.session("username").'</a>|</li>';
+                } else{
+
+                echo '<li><a href="__APP__/Form/handleLogin" style="padding: 0" id="abc">立即登录</a>|</li>';
+
+             } ?>
+
+              
+              <li><a href="__APP__/Form/handleEnroll" style="padding: 0">立即注册</a></li>
+          </ul>
+           <ul class="nav_rig">
+           <li><a href="">商品导航</a><span></span></li>
+              <li><a href="__APP__/ShopCart/shopcart/?key=4">我的足迹</a><span>|</span></li>
+              <li><a href="__APP__/ShopCart/shopcart/?key=3">我的收藏</a>|</li>
+              <li><a href="__APP__/ShopCart/shopcart/?key=2">已购商品</a>|</li>
+              <li><a href="__APP__/ShopCart/shopcart/?key=1">购物车</a>|</li>
+          </ul>
+
+      </div>
+   </div>
+</header>
+<!-- 搜索相关内容 -->
+<div class="sear">
+       <div class="logo">
+
+          <a href="__APP__/Index/index"><img src="{:C('STATIC_RES')}/images/logo.png"></a>
+
+       </div>
+  <div class="search">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="search">
+                    <span class="input-group-btn">
+              <button class="btn btn-default" type="button" id="searchbtn">
+              <span class="glyphicon glyphicon-search" style="padding: 0 20px;">
+              </span></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+$("#searchbtn").click(function(e){
+    if($("#search").val().trim()!=""){
+         var ss = $("#search").val().trim();
+         location.href="/webshop/index.php/Search/search/?key="+ss;
+    }
+})
+
+</script>
+<div class="product_link">
+<a href="/webshop/index.php/Index/showProduct/?phoneid=5g5fdg25a4">苹果7</a>
+<a href="/webshop/index.php/Index/showProduct/?phoneid=5443g5gg55">华为p10</a>
+<a href="/webshop/index.php/Index/showProduct/?phoneid=ags5g21441">荣耀8</a>
+<a href="/webshop/index.php/Index/showProduct/phoneid/1g32f4aa35">小米6</a>
+</div>
+
+</div>
+<!-- 导航相关内容 -->
+<nav>
+   <div>
+      <ul>
+
+        <li><a href="__APP__/Index/proCategory/?brand=苹果">苹果</a></li>
+        <li><a href="__APP__/Index/proCategory/?brand=华为">华为</a></li>
+        <li><a href="__APP__/Index/proCategory/?brand=OPPO">OPPO</a></li>
+        <li><a href="__APP__/Index/proCategory/?brand=VIVO">VIVO</a></li>
+        <li><a href="__APP__/Index/proCategory/?brand=三星">三星</a></li>
+        <li><a href="__APP__/Index/proCategory/?brand=小米">小米</a></li>
+        <li><a href="__APP__/Index/proCategory/?brand=魅族">魅族</a></li>
+        <li><a href="__APP__/Index/proCategory/?brand=乐视">乐视</a></li>
+        <li><a href="__APP__/Index/proCategory/?brand=努比亚">努比亚</a></li>
+
+      </ul>
+   </div>
+</nav>
+
+<div id="originaddr">
+   <h4>选择已有以下地址 :</h4>
+   <volist name="address" id="address">
+	   <div class="wrap">
+		   <input type="radio" name="myaddr" class="radio-s">
+		   <label>{$address.addr}</label>
+		   <span class="deladdr">删除该地址</span>
+	   </div>
+   </volist>
+</div>
+
+<div id="wrap-box">
+     <span>没有地址,填写一个地址</span>:<input type="text" id="dizhi">
+     <button type="button" id="cer">确认</button><br>
+     <span id="address"></span><b>
+     <button type="button" class="cer-btn">确认并到下一步</button>
+
+</div>
+
+<script>
+   //单选按钮事件绑定 
+   (function check(){
+      $(".wrap .radio-s").change(function(e) {
+      	  var  index  = $(".wrap .radio-s").index($(this));
+      	  $("#address").text("最终配送地址:"+$(".wrap label").eq(index).text());
+      });
+
+      $(".deladdr").click(function(e){
+      	  if(!confirm("确认删除吗?"))return;
+          var index  =  $(".deladdr").index($(this));
+          var addr = $(this).parent().find("label").text().trim();
+          $.ajax({
+          	type: "get",
+          	url: "__APP__/ShopCart/delAddr",
+          	data:{addr : addr},
+          	success:function(data){
+                $("#originaddr").find(".wrap").eq(index).remove();
+          	},
+          	error:function(data){
+
+          	}
+          })
+
+      })
+
+   })()
+
+
+   $("#address").text("最终配送地址:");
+   $("#cer").click(function(e){
+   	    if($("#dizhi").val().trim()==""){alert("地址不能为空");return;}
+   	    $.get("__APP__/ShopCart/storeAddr",
+            	{ addr: $("#dizhi").val().trim()},
+            	function(data){
+                   if(data=="success")
+                      $("#address").text("最终配送地址:"+$("#dizhi").val());
+                  else{
+                  	$("#dizhi").val("");
+                  	$("#dizhi").focus();
+                  	alert(data);
+                  }
+         })
+   	    
+   })
+
+   $(".cer-btn").click(function(e){
+   	     if($("#address").text().trim()=="最终配送地址:"){
+   	     	 alert("请先选择地址信息");
+   	     	 return;
+   	     }else{
+            var aa ="{$phoneid}";
+            var bb = "{$num}";
+            var ss = "/phoneid/"+aa+"/num/"+bb;
+            var address = $("#address").text().substr(7);
+            window.location.href = 
+        "http://localhost/webshop/index.php/ShopCart/money2"+ss+"/address/"+address;
+
+   	     }
+   })
+
+    
+</script>
+
+
+<footer>
+  欢迎访问烈日电子商务网站<br/>
+  <a href="">联系我们</a><a href="">改善建议</a><br/>
+  Copyright © 2017-2020  烈日lieri.com 版权所有
+</footer>
+</body>
+</html>

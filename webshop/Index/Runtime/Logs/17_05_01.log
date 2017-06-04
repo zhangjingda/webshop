@@ -1,0 +1,28 @@
+[ 2017-05-01T21:54:07+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.229444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.229662s ]
+SQL: SHOW COLUMNS FROM `mylist` [ RunTime:1.196321s ]
+SQL: select mylist.id, phone.phoneid,phone.proname,phone.provtitle,phone.color,phone.price,phone.size,phone.neicun,phone.cunchu,phone.dianchi,phone.brand from phone ,mylist where  phone.phoneid = mylist.phoneid order by  mylist.id [ RunTime:0.157627s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.095627s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broadcast` LIMIT 1   [ RunTime:0.011444s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `menu` [ RunTime:0.079332s ]
+SQL: SELECT * FROM `menu`  [ RunTime:0.001052s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: listdata E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 387 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 393 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 499 行.
+NOTIC: [8] Undefined offset:  20 E:\www\webshop\Index\Runtime\Cache\f9c22b8b40e560036663a0ce7ed378ae.php 第 500 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.283457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.283634s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.040450s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.017348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.080383s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.042417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.042631s ]
+

@@ -1,0 +1,1209 @@
+[ 2017-03-11T00:26:59+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.070352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.086979s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.691288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.691461s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.036706s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004716s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005295s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.050256s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011176s ]
+
+[ 2017-03-11T00:26:59+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.041467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.041605s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T00:26:59+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T00:26:59+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T00:27:03+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068979s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003173s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002663s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012282s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003227s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003333s ]
+
+[ 2017-03-11T00:27:03+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001245s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T00:27:03+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008368s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T00:27:03+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:06:17+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003227s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.041440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041670s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004648s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004634s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018549s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005494s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005660s ]
+
+[ 2017-03-11T13:06:17+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004678s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004883s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:06:17+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004251s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002996s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:06:18+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001370s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:06:18+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003762s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002911s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:16+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061996s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005316s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004553s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004110s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018895s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005020s ]
+
+[ 2017-03-11T13:07:16+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004445s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:16+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:16+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001699s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001859s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:17+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005367s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005113s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:18+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002163s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055046s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002816s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003029s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002675s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011973s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004477s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004606s ]
+
+[ 2017-03-11T13:07:18+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/enroll.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:18+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:35+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003866s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002927s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:35+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003244s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002868s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:37+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:37+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001831s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002012s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:37+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:37+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:40+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001163s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051393s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002832s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002646s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002623s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011458s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003106s ]
+
+[ 2017-03-11T13:07:40+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001578s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001708s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T13:07:40+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/login.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T15:08:26+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043089s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.270585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.270798s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.224196s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.112675s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.012918s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.359510s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.017402s ]
+INFO: [ view_end ] --END-- [ RunTime:0.017754s ]
+
+[ 2017-03-11T15:08:26+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.039440s ]
+INFO: [ route_check ] --END-- [ RunTime:0.039584s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T15:08:27+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T15:08:27+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T15:08:27+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001342s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:41:52+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004403s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042274s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003019s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003075s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002608s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012949s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.014526s ]
+INFO: [ view_end ] --END-- [ RunTime:0.014690s ]
+
+[ 2017-03-11T19:41:52+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004546s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:41:52+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001220s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:41:52+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001857s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002016s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:41:52+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001261s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:42:55+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003090s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061519s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004741s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004655s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004363s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004970s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005134s ]
+
+[ 2017-03-11T19:42:55+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008733s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002420s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:42:56+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005189s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005285s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:42:56+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006152s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005345s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:42:56+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002049s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002233s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:01+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002137s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:01+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003401s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:01+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css.map
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002128s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:27+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027905s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001245s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000777s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000747s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003984s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001023s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001122s ]
+
+[ 2017-03-11T19:43:27+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002146s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:28+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002205s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:28+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002399s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:28+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009152s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006703s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:28+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003712s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005712s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:36+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026965s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001085s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000865s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003753s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001043s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2017-03-11T19:43:37+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001240s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:37+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002542s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:37+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:37+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001215s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:43:37+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:44:53+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007874s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058245s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002945s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002827s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002730s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011756s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003104s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003216s ]
+
+[ 2017-03-11T19:44:53+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005560s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005755s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:44:54+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005965s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005265s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:44:54+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002047s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:44:54+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:44:54+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:45:14+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002935s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042180s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003057s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003358s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002573s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011995s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003032s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003135s ]
+
+[ 2017-03-11T19:45:14+08:00 ] 127.0.0.1 /webshop/Public/css/common.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006002s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:45:14+08:00 ] 127.0.0.1 /webshop/Index/Tpl/Public/css/index.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006388s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004482s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:45:14+08:00 ] 127.0.0.1 /webshop/Public/js/jquery-2.1.1.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005232s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005403s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003518s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:45:14+08:00 ] 127.0.0.1 /webshop/Public/bootstrap/css/bootstrap.min.css
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006213s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004092s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:45:14+08:00 ] 127.0.0.1 /webshop/Public/js/jquery.easing.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001889s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+ERR: 无法加载模块:webshop
+
+[ 2017-03-11T19:50:09+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004846s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064707s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004704s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004022s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017709s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005162s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005332s ]
+
+[ 2017-03-11T19:50:16+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003117s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003225s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002884s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037828s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003554s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002898s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002756s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012781s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003252s ]
+
+[ 2017-03-11T19:50:19+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001165s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015864s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000711s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000560s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002947s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000921s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-03-11T19:50:21+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015310s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000717s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000995s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004051s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001826s ]
+
+[ 2017-03-11T19:52:43+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005296s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004276s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044811s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004614s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004585s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004429s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020249s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005381s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005531s ]
+
+[ 2017-03-11T19:52:46+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleEnroll
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015337s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001038s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000771s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003473s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2017-03-11T23:48:23+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004771s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056747s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005667s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005158s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004685s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020973s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005553s ]
+
+[ 2017-03-11T23:48:26+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003123s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003005s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031634s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003333s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002889s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002677s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011986s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004319s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004430s ]
+
+[ 2017-03-11T23:48:49+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002944s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049579s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003553s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004546s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002580s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013663s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003070s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003168s ]
+
+[ 2017-03-11T23:48:50+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003657s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003832s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+ERR: 非法操作:proCategory.html
+
+[ 2017-03-11T23:49:10+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003222s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+ERR: 非法操作:proCategory.html
+
+[ 2017-03-11T23:49:11+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+ERR: 非法操作:proCategory.html
+
+[ 2017-03-11T23:49:15+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001329s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+ERR: 非法操作:proCategory.html
+
+[ 2017-03-11T23:49:30+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003131s ]
+ERR: 非法操作:proCategory.html
+
+[ 2017-03-11T23:49:33+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001342s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+ERR: 非法操作:proCategory.html
+
+[ 2017-03-11T23:49:35+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+ERR: 非法操作:proCategory.html
+
+[ 2017-03-11T23:49:36+08:00 ] 127.0.0.1 /webshop/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036603s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003027s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002870s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002719s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002932s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011825s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003167s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003272s ]
+
+[ 2017-03-11T23:49:38+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001579s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026420s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001110s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000897s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004860s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001527s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2017-03-11T23:49:40+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001269s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018151s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001137s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001085s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000885s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004706s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001460s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001601s ]
+
+[ 2017-03-11T23:50:00+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001241s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017189s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000869s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000746s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000600s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003280s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2017-03-11T23:50:01+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015392s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000710s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000702s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000593s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002990s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000931s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2017-03-11T23:50:04+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001214s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027435s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000890s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000744s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003248s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-03-11T23:50:06+08:00 ] 127.0.0.1 /webshop/index.php/Form/handleLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.111596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111753s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001126s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001095s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004689s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001609s ]
+
+[ 2017-03-11T23:50:09+08:00 ] 127.0.0.1 /webshop/index.php/Index/showProduct
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001984s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002190s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037916s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001493s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001248s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005746s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2017-03-11T23:50:14+08:00 ] 127.0.0.1 /webshop/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028063s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000881s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000776s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000677s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005922s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001038s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2017-03-11T23:50:16+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015386s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000817s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000772s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003232s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000914s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-03-11T23:51:38+08:00 ] 127.0.0.1 /webshop/index.php/Index/proCategory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005264s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005078s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044276s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004841s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.021987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.042047s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005199s ]
+

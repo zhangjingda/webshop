@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <style type="text/css" media="screen">
+
+     .page{
+         
+     }
+     .page a{
+     	color: #000;
+     	padding: 0px 10px;
+     	text-decoration: none;
+     	border: 1px solid #ccc;
+     	display: inline-block;
+     }
+     .page a:hover{
+     	background-color: rgba(0,255,0,0.4);
+
+     }
+     .current{
+     	background-color: #0f0;
+     	color: #000;
+     	padding: 0px 10px;
+     	text-decoration: none;
+     	border: 1px solid #ccc;
+     	display: inline-block;
+
+     }
+    	
+    </style>
+    <body>
+
+    <table cellpadding='3' cellspacing='5'>
+		<volist name="list" id="vo">
+		  <tr><td >{$vo.phone} </td></tr>
+		</volist>
+        <tr><td></td></tr>
+   </table>
+
+   <div class="result page">{$page}</div>
+
+
+    </body>
+</html>

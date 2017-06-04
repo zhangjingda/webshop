@@ -1,0 +1,236 @@
+.showProduct {
+  color: #000;
+  width: 100%;
+  margin: 20px auto;
+}
+.showProduct .leftBar {
+  float: left;
+  width: 40%;
+  height: 550px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.showProduct .leftBar .big_img_box {
+  width: 417px;
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.showProduct .leftBar .imgBox {
+  margin-top: 20px;
+  width: 417px;
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.showProduct .leftBar .imgBox .small_img_box {
+  width: 80px;
+  height: 100px;
+  border: 1px solid #f00;
+}
+.showProduct .rightBar {
+  margin-left: 30px;
+  float: left;
+  width: 57%;
+  height: 550px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.showProduct .rightBar .small-title {
+  padding-left: 10px;
+}
+.showProduct .rightBar .price {
+  height: 84px;
+  background-color: #eee;
+  position: relative;
+  padding: 10px;
+}
+.showProduct .rightBar .price .pri {
+  position: absolute;
+  top: 32px;
+  left: 5px;
+}
+.showProduct .rightBar .price h3 {
+  margin-left: 100px;
+  color: #F00;
+}
+.showProduct .rightBar .smallMes .lefNum {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.showProduct .rightBar .smallMes .idNum {
+  margin-top: 20px;
+}
+.showProduct .rightBar .smallMes .yunfei {
+  margin-top: 20px;
+}
+.showProduct .rightBar .smallMes .num {
+  margin-top: 20px;
+}
+.showProduct .rightBar .smallMes .num .theNum {
+  display: inline;
+}
+.showProduct .rightBar .smallMes .num .theNum input {
+  width: 100px;
+  height: 30px;
+  border: 2px solid #ccc;
+  padding-left: 5px;
+  text-align: center;
+}
+.showProduct .rightBar .smallMes .gouwuche {
+  margin-top: 40px;
+}
+.showProduct .rightBar .smallMes .gouwuche .btn-lg {
+  margin-right: 50px;
+}
+.Message {
+  color: #000;
+  width: 100%;
+  margin: 40px auto;
+}
+.Message .leftSuggest {
+  width: 20%;
+  float: left;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.Message .leftSuggest .item {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+.Message .rightMes {
+  width: 80%;
+  float: left;
+}
+.Message .rightMes .pro_detail,
+.Message .rightMes .comment,
+.Message .rightMes .service {
+  float: left;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-top: 3px solid #ccc;
+}
+.Message .rightMes .pro_detail:hover,
+.Message .rightMes .comment:hover,
+.Message .rightMes .service:hover {
+  cursor: pointer;
+}
+.Message .rightMes .mesbox {
+  margin-top: 20px;
+  clear: both;
+  width: 100%;
+}
+.Message .rightMes .mesbox .mes {
+  display: none;
+  min-height: 500px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_top {
+  width: 100%;
+  height: 160px;
+  padding: 20px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_top .good_img {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #f00;
+  float: left;
+}
+.Message .rightMes .mesbox .mes .mes_comment_top .good_something {
+  margin-left: 40px;
+  float: left;
+  width: 420px;
+  height: 120px;
+  padding: 20px;
+  border: 1px solid #f00;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont {
+  padding: 20px;
+  width: 100%;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 {
+  margin-top: 40px;
+  width: 100%;
+  min-height: 400px;
+  height: 1070px;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com {
+  width: 100%;
+  height: 150px;
+  margin-top: 30px;
+  border-bottom: 3px solid #ccc;
+  padding: 0;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .lef_user_img_pro {
+  float: left;
+  width: 160px;
+  height: 150px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .lef_user_img_pro .img {
+  width: 110px;
+  height: 110px;
+  margin-left: 30px;
+  overflow: hidden;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .lef_user_img_pro .font {
+  width: 160px;
+  padding-top: 4px;
+  height: 16px;
+  text-align: center;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .rig_user_com {
+  float: left;
+  width: 600px;
+  height: 160px;
+  margin-left: 30px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .rig_user_com .username {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .one_com .rig_user_com .usercomment {
+  width: 550px;
+  height: 70px;
+  overflow: hidden;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .discuss {
+  float: right;
+  width: 350px;
+  height: 35px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .discuss .page {
+  float: left;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+}
+.Message .rightMes .mesbox .mes .mes_comment_cont .comment1 .discuss .page:hover {
+  color: #F00;
+  border-color: #F00;
+  cursor: pointer;
+}
+footer {
+  clear: both;
+  padding-top: 20px;
+  margin-top: 80px;
+  width: 100%;
+  height: 80px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-size: 10px;
+}
+footer a {
+  padding: 10px;
+  color: #F00;
+}
+footer a:hover {
+  text-decoration: none;
+}

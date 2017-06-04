@@ -1,0 +1,576 @@
+[ 2017-04-22T00:00:02+08:00 ] 127.0.0.1 /webshop/admin.php/Broadcast/imgDel?phoneid=1234567890
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001202s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.017033s ]
+SQL: DELETE FROM `broadcast` WHERE ( phoneid='1234567890' ) [ RunTime:0.077273s ]
+
+[ 2017-04-22T00:00:05+08:00 ] 127.0.0.1 /webshop/admin.php/Product/product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026351s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001155s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000920s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004934s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001799s ]
+
+[ 2017-04-22T00:04:38+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005006s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004806s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069463s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003147s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004881s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004137s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018279s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005341s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005528s ]
+
+[ 2017-04-22T00:04:45+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/handleAdminLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003139s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.017901s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( account='zhangsan' AND password='123456' ) LIMIT 1   [ RunTime:0.012763s ]
+
+[ 2017-04-22T00:04:45+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/adminHome.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.016864s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.024301s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list E:\www\webshop\Admin\Runtime\Cache\9a7178e8d8a68d1d06d52b28442873e4.php 第 160 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032033s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002959s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002728s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002673s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011457s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003123s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003225s ]
+
+[ 2017-04-22T00:04:45+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/postData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.023914s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `id`,`username`,`password`,`phone`,`frozen`,`time` FROM `user` LIMIT 0,5   [ RunTime:0.000522s ]
+
+[ 2017-04-22T00:04:47+08:00 ] 127.0.0.1 /webshop/admin.php/Product/product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001206s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021317s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000852s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001010s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001140s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004334s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001432s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2017-04-22T00:04:48+08:00 ] 127.0.0.1 /webshop/admin.php/Broadcast/broadcast
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001175s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.021926s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021644s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000786s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000714s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000579s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003104s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000977s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2017-04-22T00:04:52+08:00 ] 127.0.0.1 /webshop/admin.php/Product/product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001268s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028258s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000823s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000744s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003294s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003018s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003130s ]
+
+[ 2017-04-22T00:08:40+08:00 ] 127.0.0.1 /webshop/admin.php/Product/fileUpload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003267s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003394s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003707s ]
+
+[ 2017-04-22T00:08:50+08:00 ] 127.0.0.1 /webshop/admin.php/Product/fileUpload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003171s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003287s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003196s ]
+
+[ 2017-04-22T00:08:56+08:00 ] 127.0.0.1 /webshop/admin.php/Product/fileUpload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-04-22T00:09:12+08:00 ] 127.0.0.1 /webshop/admin.php/Product/fileUpload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001360s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001475s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+
+[ 2017-04-22T00:09:17+08:00 ] 127.0.0.1 /webshop/admin.php/Product/fileUpload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001283s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+
+[ 2017-04-22T00:09:23+08:00 ] 127.0.0.1 /webshop/admin.php/Product/fileUpload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+
+[ 2017-04-22T00:09:28+08:00 ] 127.0.0.1 /webshop/admin.php/Product/fileUpload1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001338s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+
+[ 2017-04-22T00:09:33+08:00 ] 127.0.0.1 /webshop/admin.php/Product/fileUpload1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+
+[ 2017-04-22T00:09:38+08:00 ] 127.0.0.1 /webshop/admin.php/Product/fileUpload1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002843s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+
+[ 2017-04-22T00:09:42+08:00 ] 127.0.0.1 /webshop/admin.php/Product/fileUpload1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-04-22T00:09:54+08:00 ] 127.0.0.1 /webshop/admin.php/Product/productMes
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006213s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006355s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.033051s ]
+SQL: SHOW COLUMNS FROM `phoneid` [ RunTime:0.017691s ]
+SQL: SHOW COLUMNS FROM `allnum` [ RunTime:0.015038s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT COUNT(*) AS tp_count FROM `phoneid` WHERE ( name='afsf423a33' ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: INSERT INTO `phoneid` (`name`) VALUES ('afsf423a33') [ RunTime:0.058522s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: INSERT INTO `allnum` (`phoneid`,`num`) VALUES ('afsf423a33',100) [ RunTime:0.038549s ]
+SQL: INSERT INTO `phone` (`phoneid`,`proname`,`protitle`,`provtitle`,`brand`,`neicun`,`cunchu`,`color`,`price`,`tedian`,`imgsrc1`,`imgsrc2`,`imgsrc3`,`imgsrc4`,`imgsrc5`,`imgsrc6`,`bigimg1`,`bigimg2`,`bigimg3`,`bigimg4`) VALUES ('afsf423a33','华为p10','HUAWEI P10 4GB+128GB 全网通版（钻雕金）','每天10:08 现货发售。 点击参与优享购全款订购（移动端专享）','华为','4g','64g','赭石黑','3788','大光圈拍照@急速双摄@急速快充','4edob5cv3m18qi1wwh.jpg','haxm5tf1eijlb3g5n5.jpg','weg14jf1v0276o7j3q.jpg','uycns79mj6ah6r4srb.jpg','4odbbq6b726yu5v247.jpg','7deyeqj51iap5ucjcn.jpg','weg5q1f0n7rib8ogan.JPG','vjx8lmraja1qxmmcip.JPG','b7gd8sj9vqw3oq9qdu.JPG','239oqkq8mxd0fley99.JPG') [ RunTime:0.059675s ]
+
+[ 2017-04-22T00:10:22+08:00 ] 127.0.0.1 /webshop/admin.php/Product/product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003182s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037439s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003253s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002738s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002592s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011704s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003220s ]
+
+[ 2017-04-22T00:11:34+08:00 ] 127.0.0.1 /webshop/admin.php/Product/product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003560s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003671s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003144s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033782s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003409s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003048s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002781s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013036s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003422s ]
+
+[ 2017-04-22T00:11:39+08:00 ] 127.0.0.1 /webshop/admin.php/Broadcast/broadcast
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001370s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.015525s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020163s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000800s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000740s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003174s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000960s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2017-04-22T00:12:01+08:00 ] 127.0.0.1 /webshop/admin.php/Broadcast/getDataId2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003522s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003649s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003160s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.016003s ]
+SQL: SELECT `phoneid` FROM `phone` WHERE ( neicun = '4g' and cunchu = '64g' )  [ RunTime:0.000421s ]
+
+[ 2017-04-22T00:14:57+08:00 ] 127.0.0.1 /webshop/admin.php/Broadcast/imgUpload
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-04-22T00:14:59+08:00 ] 127.0.0.1 /webshop/admin.php/Broadcast/postData?phoneid=afsf423a33&myimg=sylbswn2mfxtfse8qp.JPG
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SHOW COLUMNS FROM `phone` [ RunTime:0.083552s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `phone` WHERE ( phoneid='afsf423a33' ) LIMIT 1   [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.028109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broadcast` WHERE ( phoneid='afsf423a33' ) LIMIT 1   [ RunTime:0.000382s ]
+SQL: INSERT INTO `broadcast` (`phoneid`,`img`) VALUES ('afsf423a33','sylbswn2mfxtfse8qp.JPG') [ RunTime:0.041013s ]
+
+[ 2017-04-22T20:20:31+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003410s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003020s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033293s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003675s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004518s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018731s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003231s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003322s ]
+
+[ 2017-04-22T20:20:38+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/handleAdminLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004448s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003176s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.060125s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE ( account='zhangsan' AND password='123456' ) LIMIT 1   [ RunTime:0.063282s ]
+
+[ 2017-04-22T20:20:38+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/adminHome.shtml
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001269s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.058931s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.008994s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list E:\www\webshop\Admin\Runtime\Cache\9a7178e8d8a68d1d06d52b28442873e4.php 第 160 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044966s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003193s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002975s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002832s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012140s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003195s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003298s ]
+
+[ 2017-04-22T20:20:39+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/postData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002659s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015236s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `id`,`username`,`password`,`phone`,`frozen`,`time` FROM `user` LIMIT 0,5   [ RunTime:0.000444s ]
+
+[ 2017-04-22T20:20:41+08:00 ] 127.0.0.1 /webshop/admin.php/Product/product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046496s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001791s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001234s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005784s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001593s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2017-04-22T20:20:42+08:00 ] 127.0.0.1 /webshop/admin.php/Broadcast/broadcast
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003342s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003471s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003108s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.016597s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042295s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003148s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002741s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002585s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011633s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003261s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003374s ]
+
+[ 2017-04-22T20:20:43+08:00 ] 127.0.0.1 /webshop/admin.php/Product/product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001217s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022718s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000799s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000711s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003288s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001577s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001757s ]
+
+[ 2017-04-22T20:21:33+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/adminHome
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.017537s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: list E:\www\webshop\Admin\Runtime\Cache\9a7178e8d8a68d1d06d52b28442873e4.php 第 160 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023326s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000875s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000741s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003515s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2017-04-22T20:21:33+08:00 ] 127.0.0.1 /webshop/admin.php/Admin/postData
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002715s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015727s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT `id`,`username`,`password`,`phone`,`frozen`,`time` FROM `user` LIMIT 0,5   [ RunTime:0.000904s ]
+
+[ 2017-04-22T20:21:35+08:00 ] 127.0.0.1 /webshop/admin.php/Product/product
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000832s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000776s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000639s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003518s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2017-04-22T20:21:37+08:00 ] 127.0.0.1 /webshop/admin.php/Broadcast/broadcast
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001271s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001405s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.015616s ]
+SQL: SELECT * FROM `broadcast`  [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020019s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001109s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000636s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004606s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001561s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001751s ]
+
